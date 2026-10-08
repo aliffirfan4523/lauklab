@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "site": "lauklab",
+    "target": "lauklab",
     "public": "public",
     "ignore": [
       "firebase.json",

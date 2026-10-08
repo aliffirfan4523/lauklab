@@ -29,3 +29,7 @@ These are planned checks; this document does not record test results or certify 
 ## Boundaries
 
 No backend, live AI API, accounts, form waitlist, storage, trackers, photography, or generated icons. No hosting choice, production canonical URL, remote, push, deployment, or DNS change. Repository intent is local `main` with the work left uncommitted.
+
+## Hosting amendment approved 2026-10-09
+
+The user approved local Firebase configuration for the existing separate site `lauklab` in project `chiai-my`, with named target `lauklab`. Build output changes from `dist/` to `public/`, serving `public/index.html` at `/`. Generated GitHub publishing workflows become manual only with an explicit site target and preview/live channels. See `HOSTING.md` for the configuration and scoped commands. This replaces the earlier undecided-hosting boundary; cloud publishing, domain connection, and DNS changes still require separate approval.

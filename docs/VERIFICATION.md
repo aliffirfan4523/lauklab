@@ -103,3 +103,18 @@ Screenshots: [desktop](screenshots/desktop.png), [full desktop](screenshots/desk
 No physical-device, screen-reader, cross-browser, external email-client launch, remote portfolio availability, or professional recipe tests were run. This is not a formal accessibility or security audit. Hosting and production indexing settings remain undecided; nothing was published.
 
 Git remains on main with the deliverable files staged for review, uncommitted, and no remote. Dependencies, build output, and local scratch files are ignored. The existing portfolio and DNS were not changed.
+
+## Firebase configuration update, 2026-10-09
+
+The user approved local configuration serving the Vue landing page through `public/index.html`. Named target `lauklab` maps to secondary site `lauklab` in project `chiai-my`; no portfolio target is configured. Vite now generates `public/` with static public-directory copying disabled. The Firebase welcome page and bundled SDK imports have been replaced by the compiled Vue page.
+
+- PASS: seven Node tests, zero failures. New checks cover the target/site mapping, build output, manual workflow triggers, and explicit preview/live channels. Both new checks were observed failing before their corresponding fixes.
+- PASS: production build emitted `public/index.html`, 12.16 kB CSS, and 77.08 kB JavaScript; 13 modules compiled.
+- PASS: `firebase emulators:exec --only hosting:lauklab --project chiai-my --non-interactive "node .superpowers/hosting-qa.cjs"` exited 0 and stopped the emulator automatically.
+- PASS: Hosting logged `hosting[lauklab]: Serving hosting files from: public`. HTML and both bundles returned HTTP 200 locally.
+- PASS: Chrome loaded the intended heading and all three meals, followed the preview link, expanded recipe steps, and used the mobile Menu at 390px without horizontal overflow.
+- PASS: no console errors, page errors, Firebase SDK imports, external requests, fetch requests, or XHR requests in the local browser check.
+- PASS: publishing workflows run only through manual dispatch, select project `chiai-my`, target `lauklab`, and explicit channels `review` / `live`. Independent review caught the initially missing manual preview channel; the regression test passed after correction.
+- PASS: `git diff --check` found no whitespace errors.
+
+No cloud deployment, GitHub workflow run, custom-domain connection, DNS change, billing change, or repository push occurred. Remote CI credentials and production domain behavior were not tested. See [Hosting instructions](HOSTING.md).

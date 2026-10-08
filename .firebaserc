@@ -1,5 +1,12 @@
 {
   "projects": {
     "default": "chiai-my"
+  },
+  "targets": {
+    "chiai-my": {
+      "hosting": {
+        "lauklab": ["lauklab"]
+      }
+    }
   }
 }

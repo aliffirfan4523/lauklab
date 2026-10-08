@@ -3,6 +3,9 @@ import { defineConfig } from 'vite'
 import { metadata } from './src/content.js'
 
 export default defineConfig({
+  base: '/',
+  publicDir: false,
+  build: { outDir: 'public' },
   plugins: [
     vue(),
     {

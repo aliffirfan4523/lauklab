@@ -34,7 +34,8 @@ npm run preview
 | `src/components/SamplePreview.vue` | Pantry preview and expandable recipe steps. |
 | `src/styles.css` | Base theme plus page styles scoped under `.lauklab-page`, including responsive behavior and motion. |
 | `vite.config.js` | Build configuration and HTML metadata from the shared content. |
-| `index.html` | Page shell. |
+| `index.html` | Editable Vite page shell; builds into `public/index.html`. |
+| `firebase.json` / `.firebaserc` | Only target `lauklab`, mapped to site `lauklab` in project `chiai-my`. |
 | `DESIGN.md` | Approved visual direction and its reasons. |
 | `docs/PLAN.md` | Approved implementation scope and verification intent. |
 | `docs/PROJECT.md` | Project context and the proposed MVP direction. |
@@ -47,9 +48,9 @@ Recipe steps, FAQ answers, and the mobile Menu use native `details` controls. Th
 
 ## Build and host
 
-`npm run build` creates `dist/`. Serve that directory at the root (`/`) of the site's own hosting destination. The existing portfolio at `https://chiai.my` remains separate.
+`npm run build` generates `public/index.html` and bundled assets in `public/`. Firebase serves that directory at `/`. The root `index.html` is the source; do not edit the generated file or store source assets in `public/`, which Vite clears on each build. The existing portfolio at `https://chiai.my` remains separate.
 
-Hosting is undecided. No remote, push, deployment, or DNS change is part of this work. Confirm the final destination and production URL before publishing or adding a canonical URL.
+Firebase project `chiai-my` and the separate Hosting site `lauklab` have been verified. Local target `lauklab` maps only to that site. The intended custom domain is `lauklab.chiai.my`, pending an approved domain connection. Publishing and DNS changes require separate approval. See [Hosting instructions](docs/HOSTING.md) for local testing and the scoped commands. Generated GitHub workflows now run only through an explicit manual dispatch; pushes and pull requests do not publish.
 
 ## Review evidence
 
