@@ -118,3 +118,16 @@ The user approved local configuration serving the Vue landing page through `publ
 - PASS: `git diff --check` found no whitespace errors.
 
 No cloud deployment, GitHub workflow run, custom-domain connection, DNS change, billing change, or repository push occurred. Remote CI credentials and production domain behavior were not tested. See [Hosting instructions](HOSTING.md).
+
+## Automatic CI update, 2026-10-09
+
+The user approved CI with automatic page updates. One workflow now checks pull requests and pushes to `main`, using Node 24 and `npm ci`, `npm test`, then `npm run build`. Its final Firebase step runs only for non-PR events on `refs/heads/main`, with project `chiai-my`, target `lauklab`, and channel `live`. The redundant preview workflow was removed. DNS approval remains separate.
+
+- PASS: seven Node tests and the production build; the revised CI regression check first failed against the manual-only workflow, then passed after implementation.
+- PASS: workflow YAML parsed with Firebase CLI's installed YAML library. Assertions confirmed one workflow, PR/main/manual triggers, check/build ordering, deployment guard, isolated target, and Node 24.
+- PASS: focused independent review found no actionable issues in event/branch gating, secret use, check ordering, or deployment configuration.
+- PASS: `git diff --check` found no whitespace errors.
+- CONFIRMED: repository remote is `https://github.com/aliffirfan4523/lauklab.git`, with default branch `main`. A previous push deployment run succeeded at 2026-10-09 01:03 MYT.
+- UNVERIFIED: current Actions settings and `FIREBASE_SERVICE_ACCOUNT_CHIAI_MY` secret presence/permissions. The authenticated connector supports neither settings nor secrets inspection.
+
+The new workflow has not been pushed or run remotely by this task. No cloud deployment or DNS change was performed. Commit and push the complete local changes to `main` to activate automatic updates; CI regenerates `public/` rather than requiring generated build files in Git.

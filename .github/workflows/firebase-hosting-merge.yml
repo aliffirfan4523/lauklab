@@ -1,12 +1,30 @@
-name: Publish lauklab live (manual)
-on: workflow_dispatch
+name: CI and deploy lauklab
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+  checks: write
+concurrency:
+  group: lauklab-${{ github.ref }}
+  cancel-in-progress: true
 jobs:
   build_and_deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: npm ci && npm run build
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '24'
+          package-manager-cache: false
+      - run: npm ci
+      - run: npm test
+      - run: npm run build
       - uses: FirebaseExtended/action-hosting-deploy@v0
+        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
         with:
           repoToken: ${{ secrets.GITHUB_TOKEN }}
           firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_CHIAI_MY }}

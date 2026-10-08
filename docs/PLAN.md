@@ -33,3 +33,7 @@ No backend, live AI API, accounts, form waitlist, storage, trackers, photography
 ## Hosting amendment approved 2026-10-09
 
 The user approved local Firebase configuration for the existing separate site `lauklab` in project `chiai-my`, with named target `lauklab`. Build output changes from `dist/` to `public/`, serving `public/index.html` at `/`. Generated GitHub publishing workflows become manual only with an explicit site target and preview/live channels. See `HOSTING.md` for the configuration and scoped commands. This replaces the earlier undecided-hosting boundary; cloud publishing, domain connection, and DNS changes still require separate approval.
+
+## Automatic CI amendment, 2026-10-09
+
+The user approved automatic GitHub Actions updates. A single workflow tests and builds pull requests and pushes to `main`, using Node 24. Successful `main` pushes deploy only target `lauklab` to the live channel; pull requests do not deploy. This supersedes the manual-only workflow restriction. Domain connection, DNS edits, and direct agent publishing remain outside the requested local configuration update.

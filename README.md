@@ -50,7 +50,7 @@ Recipe steps, FAQ answers, and the mobile Menu use native `details` controls. Th
 
 `npm run build` generates `public/index.html` and bundled assets in `public/`. Firebase serves that directory at `/`. The root `index.html` is the source; do not edit the generated file or store source assets in `public/`, which Vite clears on each build. The existing portfolio at `https://chiai.my` remains separate.
 
-Firebase project `chiai-my` and the separate Hosting site `lauklab` have been verified. Local target `lauklab` maps only to that site. The intended custom domain is `lauklab.chiai.my`, pending an approved domain connection. Publishing and DNS changes require separate approval. See [Hosting instructions](docs/HOSTING.md) for local testing and the scoped commands. Generated GitHub workflows now run only through an explicit manual dispatch; pushes and pull requests do not publish.
+Firebase project `chiai-my` and the separate Hosting site `lauklab` have been verified. Local target `lauklab` maps only to that site. The intended custom domain is `lauklab.chiai.my`, pending an approved domain connection. GitHub Actions tests and builds every pull request. Pushes to `main` automatically publish the successful build to site `lauklab`; pull requests do not publish. See [Hosting instructions](docs/HOSTING.md) for prerequisites and local testing. DNS changes and direct publishing commands still require separate approval.
 
 ## Review evidence
 
