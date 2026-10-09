@@ -33,6 +33,7 @@ npm run preview
 | `src/App.vue` | Page sections, navigation, FAQ, and early-access email link. |
 | `src/components/SamplePreview.vue` | Pantry preview and expandable recipe steps. |
 | `src/styles.css` | Base theme plus page styles scoped under `.lauklab-page`, including responsive behavior and motion. |
+| `src/theme.js` | Validated System/Light/Dark preference with storage-failure fallback. |
 | `vite.config.js` | Build configuration and HTML metadata from the shared content. |
 | `index.html` | Editable Vite page shell; builds into `public/index.html`. |
 | `firebase.json` / `.firebaserc` | Only target `lauklab`, mapped to site `lauklab` in project `chiai-my`. |
@@ -42,9 +43,13 @@ npm run preview
 
 Keep public copy and sample data in `src/content.js` so the page and metadata share the same source. No canonical URL is set until the final hosting address is known.
 
-The preview is fixed at **2 servings, 20 minutes, and a frying pan**. Its pantry is 4 eggs, 200 g cabbage, 100 g onion, 400 g cooked rice, 2 tbsp oil, and 0.5 tsp salt. The tomato option calls for an extra 2 tomatoes (250 g).
+The preview is fixed at **2 servings, 20 minutes, and a frying pan**. Its pantry is 4 eggs, 200 g cabbage, 100 g onion, 400 g cooked rice, 2 tbsp oil, and 0.5 tsp salt. The tomato option calls for an extra 2 tomatoes, measured by count rather than an assumed mass conversion.
 
-Recipe steps, FAQ answers, and the mobile Menu use native `details` controls. The site has no backend, live AI calls, accounts, waitlist form, persistent storage, or trackers. The early-access link opens the visitor's email client with the subject `lauklab by Chiai - early access interest`.
+Recipe steps, FAQ answers, and the mobile Menu use native `details` controls. The site has no backend, live AI calls, accounts, waitlist form, or trackers. The early-access link opens the visitor's email client with the subject `lauklab by Chiai - early access interest`.
+
+The labelled Theme selector defaults to **System** and also offers **Light** and **Dark**. Local storage keeps only this appearance preference. When storage is blocked, the selector still works during the visit. System mode responds to operating-system appearance changes. Body and cooking instructions use the browser's normal font size; secondary metadata is at least .875rem. Controls have at least 48px height.
+
+The planned first version focuses on confirmed pantry quantities, reviewed English/Malay ingredient input, curated meal matching, guided cooking, and saved recipes. Weekly planning and combined shopping lists depend on pilot feedback; this page does not provide those features.
 
 ## Build and host
 

@@ -1,5 +1,7 @@
 # Verification and antislop Delivery Gate
 
+Earlier sections record historical revisions, including the original fixed-light direction. The current appearance/readability evidence is recorded separately in the final **Founder-focused landing refinement** section below; historical results should not be read as current hosting or theme settings.
+
 Verified on 2026-10-08 using the local production preview. Antislop mode: during (session override). Design dials: ENERGY 2 / RHYTHM 3 / MOTION 1.
 
 ## Checks run
@@ -131,3 +133,42 @@ The user approved CI with automatic page updates. One workflow now checks pull r
 - UNVERIFIED: current Actions settings and `FIREBASE_SERVICE_ACCOUNT_CHIAI_MY` secret presence/permissions. The authenticated connector supports neither settings nor secrets inspection.
 
 The new workflow has not been pushed or run remotely by this task. No cloud deployment or DNS change was performed. Commit and push the complete local changes to `main` to activate automatic updates; CI regenerates `public/` rather than requiring generated build files in Git.
+
+## Founder-focused landing refinement, 2026-10-09
+
+Scope: the existing Vue landing page, appearance control, readable text/touch targets, first-release wording, and count-based tomato fixture. This is independent of the mobile prototype and Figma file. Firebase, CI, DNS, dependencies, and deployment were not changed.
+
+### Commands and reproducible evidence
+
+- PASS: `npm test`, 12 tests passed, zero failures. Five new theme tests cover default System behavior, restoration across sessions, invalid saved/new choices, blocked storage access, failed writes, and returning to System. Existing content and Hosting/CI isolation checks still pass.
+- PASS: `npm run build`, Vite 8.3.4 compiled 14 modules into `public/`. After the explicit Theme label association, output is `public/index.html` 1.33kB, CSS 13.55kB, and JavaScript 80.00kB. The build command did not publish anything.
+- PASS: `npm run preview -- --host 127.0.0.1 --port 4173 --strictPort` serves the built landing page locally, HTTP 200.
+- PASS: `node docs/landing-check.cjs`, using the already bundled Playwright package and headless Microsoft Edge (Chromium). No browser dependency was installed into this project. The script references this host's bundled runtime path; update that require path when reproducing on a different machine.
+- PASS: `git diff --check`, no whitespace errors.
+
+Exact browser observations are saved in [landing-check-results.json](landing-check-results.json). The runner is [landing-check.cjs](landing-check.cjs). The first attempt exposed a Playwright exact-label matching ambiguity with an implicit wrapping label; the Theme control now has an explicit `for`/`id` association. This was not a demonstrated screen-reader naming defect. All checks below ran against the rebuilt page after that correction.
+
+### Current browser results
+
+- PASS: **15 layout/target checks**: 320, 390, 768, and 1440px in both themes; 200% root text at 320, 390, and 720px in both themes; plus an expanded 390px mobile Menu. No document horizontal overflow. Every rendered checked link, summary, and select is at least 48px wide and high; the minimum observed height is 48px.
+- PASS: **11 appearance checks**: System follows light and a live OS change to dark; Light/Dark override the opposite OS setting and persist on reload; returning to System resumes OS following; blocked local-storage access defaults to System and still permits session changes and OS following.
+- PASS: **five interaction groups** cover the rendered page/disclaimer/metadata, desktop navigation and all nine disclosures, mobile Menu and destinations, email/portfolio/top links, and keyboard skip link/Theme selection. Three recipe and six FAQ disclosures open and close with click, Enter, and Space. All four desktop/mobile destinations exist and are reached. Hero action reaches `#preview`.
+- PASS: normal-text contrast for **12 light pairs**, minimum **5.14:1**; **13 dark pairs**, minimum **6.89:1**. Measurements include the expanded cooking instructions and FAQ answers, native Theme text, page/surface/panel text, and missing-ingredient disclosure.
+- PASS: eight control/focus contrast checks: Theme boundary 4.18:1 light / 5.06:1 dark; focus against page 5.14:1 / 9.33:1; focus against surface 5.61:1 / 8.28:1; panel focus 8.42:1 in both themes. Native Theme and skip-link focus have a visible 3px outline.
+- PASS: all three email links address `aliff@chiai.my`; both early-access links preserve the encoded subject `lauklab by Chiai - early access interest`. Portfolio links remain `https://chiai.my`. External applications/destinations were inspected rather than launched.
+- PASS: one H1, three sample meal alternatives, exact **Illustrative preview — sample data, not live AI.** label, intended title, and no canonical URL.
+- PASS: zero browser console errors, zero page errors, zero external requests, and zero fetch/XHR requests. The 15 observed requests are local document/script/stylesheet traffic.
+
+### Current antislop Delivery Gate
+
+- PASS R-03 / R-25 / R-32 / R-34 / R-35: both themes, OS following, storage fallback, 200% text, visible focus, ≥48px targets, native keyboard behavior, rendered contrast, and screenshots have current evidence above. This is browser validation, not native-device or assistive-technology certification.
+- PASS R-17 / R-18 / R-36 / R-38: no invented traction, funding, endorsement, testimonials, ratings, or certification claims. Development status remains visible. Planned first-release features and conditional later roadmap are separate from the fixed sample.
+- PASS C-1 / C-2 / C-3 / C-4 / C-5: written design reasons, functional native controls, concrete pantry/meal content, both-theme enlarged-text resilience, and truthful project claims. Theme persistence failure preserves the chosen appearance for the current visit.
+- PASS R-05 / R-06 / R-11 / R-14 / R-19 / R-20 / R-29: the cookbook typography and pantry comparison retain the approved identity; section layouts vary with content, metadata stays readable, matching alternatives use consistent fields, and existing interaction-only/reduced-motion CSS is preserved. Dark tokens extend the same cream/green/orange identity without inverting green-panel text.
+- PASS liveliness: ENERGY 2 / RHYTHM 3 / MOTION 1 remains appropriate. The headline, actual pantry, three alternatives, and contact question provide concrete focal points. Decorative section eyebrows were removed; factual development/sample information remains visible.
+
+Representative captures were visually inspected: [light desktop](screenshots/founder-light-desktop.png), [dark desktop](screenshots/founder-dark-desktop.png), [light mobile](screenshots/founder-light-mobile.png), [dark mobile](screenshots/founder-dark-mobile.png), and [expanded dark preview](screenshots/founder-dark-preview.png). Full light/dark page and expanded light-preview captures are also in `screenshots/`.
+
+Capture follow-up: the [full dark page](screenshots/founder-dark-desktop-full.png) was recaptured after scrolling through the page and waiting for two animation frames at each viewport position. The final full capture and dedicated [dark idea](screenshots/founder-dark-idea.png) / [dark contact](screenshots/founder-dark-contact.png) captures were visually inspected; both green panels contain readable cream text. This was a focused screenshot/repaint check, with no source changes or repeated full audit.
+
+Unchecked: physical devices, Safari/Firefox, screen-reader operation, external mail-client launch, remote portfolio behavior, professional recipe testing, cloud publishing, and DNS. The 200% check changes root text size and verifies reflow; browser-toolbar zoom was not operated. Theme storage contains only an optional preference. No visitor ingredient data, signup, account, or live AI service was introduced.

@@ -16,7 +16,7 @@ The sample uses 2 servings, a 20-minute limit, and a frying pan. The pantry cont
 
 - Egg and cabbage fried rice: 18 minutes, no extra ingredients.
 - Cabbage omelette with rice: 20 minutes, no extra ingredients.
-- Tomato, egg, and cabbage bowls: 20 minutes, plus 2 tomatoes (250 g).
+- Tomato, egg, and cabbage bowls: 20 minutes, plus 2 tomatoes measured by count.
 
 The required label is **Illustrative preview — sample data, not live AI.** State that recipes are not professionally tested.
 
@@ -26,9 +26,9 @@ Run `npm test` (`node --test`) for meaningful content/data checks and `npm run b
 
 These are planned checks; this document does not record test results or certify a deployment.
 
-## Boundaries
+## Original boundaries
 
-No backend, live AI API, accounts, form waitlist, storage, trackers, photography, or generated icons. No hosting choice, production canonical URL, remote, push, deployment, or DNS change. Repository intent is local `main` with the work left uncommitted.
+The original scope excluded backend, live AI API, accounts, form waitlist, storage, trackers, photography, and generated icons. Later amendments below supersede the appearance-storage and hosting restrictions. Production canonical URL, direct agent publishing, DNS changes, and commits remain outside this refinement.
 
 ## Hosting amendment approved 2026-10-09
 
@@ -37,3 +37,13 @@ The user approved local Firebase configuration for the existing separate site `l
 ## Automatic CI amendment, 2026-10-09
 
 The user approved automatic GitHub Actions updates. A single workflow tests and builds pull requests and pushes to `main`, using Node 24. Successful `main` pushes deploy only target `lauklab` to the live channel; pull requests do not deploy. This supersedes the manual-only workflow restriction. Domain connection, DNS edits, and direct agent publishing remain outside the requested local configuration update.
+
+## Appearance and first-release refinement, 2026-10-09
+
+The new founder brief explicitly requests simple colors, light and dark appearance, clear flows, and usability for younger and older people. System/Light/Dark replaces the original fixed-light direction. Store only the validated optional appearance choice; remain usable when storage access or saving fails. Restore a saved choice before rendering and follow operating-system changes while System is selected.
+
+Keep the supplied headline, fixed three-meal sample, source limitations, genuine email action, and portfolio links. Use semantic foreground/surface/action tokens so dark appearance preserves contrast. Body and recipe text use 1rem, secondary metadata at least .875rem, and controls at least 48px tall. Remove decorative section labels without removing project status or recipe limitations.
+
+Public plans should describe a focused first version with confirmed pantry quantities, reviewed English/Malay ingredient input, curated recipe matching, guided cooking, and saved recipes. Planning and combined shopping lists remain later candidates after pilot validation. Preserve the separate Firebase configuration and CI workflow without publishing or changing DNS.
+
+Verification adds theme-transition and storage-failure tests, both-theme browser contrast, 320/390/768/1440 reflow, 200% text, native Theme keyboard behavior, and fresh screenshots. Historical evidence stays in `VERIFICATION.md`; append current results separately.

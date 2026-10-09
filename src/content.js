@@ -17,7 +17,7 @@ export const copy = {
   hero: {
     status: 'An independent project by ' + project.brand + ' · In development',
     headline: 'Good meals start with what you already have.',
-    description: 'We’re building a cooking assistant for Malaysian home cooks: practical meal ideas based on your ingredients, available time, and kitchen equipment.',
+    description: 'A cooking app in development for Malaysian home cooks. The first version will help you choose from three practical meals using your ingredients, cooking time, and equipment.',
     previewAction: 'See the sample meals', contactAction: 'Ask about early access',
     emailNote: 'Early access opens your email application.',
     pantryTitle: 'A little in the kitchen.',
@@ -27,11 +27,11 @@ export const copy = {
   idea: {
     label: 'The idea', title: 'Less time deciding. More of what’s already there.',
     description: 'A few eggs. Some cabbage. Rice from an earlier meal. The ingredients are there, but choosing what to make can still take time.',
-    goal: 'We want to make that decision a little easier, with a short list of practical meals and a clear view of anything you would need to buy.',
+    goal: 'Start with a short list of curated recipes. Compare what you can cook now with what needs an extra ingredient, then follow clear cooking steps.',
     goals: ['Make use of ingredients already at home.', 'Spend less time choosing what to cook.', 'See what is missing before choosing a meal.'],
     stepsTitle: 'The experience we’re working towards',
     steps: [
-      { title: 'Tell us what you have.', description: 'Include quantities, ingredients to use first, and anything you want to leave out.' },
+      { title: 'Tell us what you have.', description: 'Enter ingredients in English or Malay, check the interpreted names, and confirm quantities and staples.' },
       { title: 'Set the practical details.', description: 'Your cooking time, servings, and the equipment in your kitchen.' },
       { title: 'Choose from three meal ideas.', description: 'Compare what you can cook now with what needs a few extras.' },
     ],
@@ -46,28 +46,28 @@ export const copy = {
     noExtras: 'None needed.', stepsAction: 'See sample steps', stepsLabel: 'Sample cooking flow',
   },
   planned: {
-    label: 'Planned capabilities', title: 'Built around everyday cooking.',
-    description: 'These capabilities are planned. The sample above only shows the idea.',
+    label: 'Planned capabilities', title: 'A focused first version.',
+    description: 'These capabilities are planned for the first version. The sample above only shows the idea.',
     features: [
-      { name: 'Ingredient-aware meal suggestions', description: 'Start with what you have, including quantities and ingredients to use first.' },
-      { name: 'Time, servings, and equipment', description: 'Keep suggestions within the practical limits of your kitchen.' },
-      { name: 'Ingredient substitutions', description: 'Find supported alternatives when something is missing or excluded.' },
-      { name: 'English and Bahasa Malaysia', description: 'Use the language you are most comfortable cooking in.' },
+      { name: 'Three meals that fit', description: 'Match curated recipes to confirmed quantities, time, servings, and equipment. Show shortages before you choose.' },
+      { name: 'English and Malay ingredient input', description: 'Review ingredient names before saving them. The planned interface starts in English.' },
+      { name: 'Clear cooking steps', description: 'Follow a recipe step by step, then review pantry deductions before applying them.' },
+      { name: 'Save meals to cook again', description: 'Keep useful recipes close without making an account a requirement for getting started.' },
     ],
     status: 'Planned',
   },
   roadmap: {
     label: 'Development roadmap', title: 'One useful step at a time.',
     stages: [
-      { label: 'Current', title: 'An idea you can explore', description: 'Concept development and this illustrative product preview.' },
-      { label: 'Next', title: 'A working first version', description: 'An ingredient-to-meal MVP with grounded suggestions.' },
-      { label: 'Then', title: 'A small home-cook pilot', description: 'Learn from people who cook the suggestions in their own kitchens.' },
-      { label: 'Later', title: 'Beyond tonight’s meal', description: 'Saved meals, meal planning, and shopping-list improvements.' },
+      { label: 'Current', title: 'An idea you can explore', description: 'Concept development and this labelled, illustrative sample kitchen.' },
+      { label: 'Next', title: 'A working first version', description: 'Confirmed pantry quantities, curated meal matching, guided cooking, and saved recipes.' },
+      { label: 'Then', title: 'A small home-cook pilot', description: 'Check whether people can find a suitable meal, cook it, and return on another day.' },
+      { label: 'Later', title: 'Plan beyond tonight', description: 'Weekly planning and a combined shopping list, if the pilot shows people need them.' },
     ],
   },
   about: {
     label: 'About ' + project.brand, title: 'An independent project, with a practical purpose.',
-    description: project.name + ' is an early-stage software project under ' + project.brand + ', focused on a practical AI-assisted cooking tool. The application is still in development; this page is a way to share the idea and hear what home cooks need.',
+    description: project.name + ' is an independent software project under ' + project.brand + '. We’re starting with curated recipes and a practical pantry-to-meal flow. AI may help interpret bilingual ingredient input; quantities and recipe matching will stay grounded in the recipe data. The app is still in development.',
   },
   faq: {
     title: 'A few things to know.',
@@ -75,19 +75,25 @@ export const copy = {
       { question: 'Can I use the application yet?', answer: 'Not yet. This is a landing page and an illustrative preview. A working ingredient-to-meal application is the next development stage.' },
       { question: 'Does this preview use live AI?', answer: 'No. The three sample meals and cooking flows are pre-written and included with this page. The preview does not send ingredients to an AI provider.' },
       { question: 'Is the project focused on Malaysian cooking?', answer: 'Yes. We’re designing it for adult home cooks in Malaysia, especially people cooking simple weekday meals for one or two.' },
-      { question: 'Which features are still planned?', answer: 'Ingredient-aware suggestions, time and equipment constraints, substitutions, and English and Bahasa Malaysia support are planned. Saved meals, meal planning, and shopping-list improvements are longer-term ideas.' },
+      { question: 'Which features are still planned?', answer: 'Pantry quantities, English and Malay ingredient input, curated matching, guided cooking, and saved recipes are planned for a first version. Weekly planning and combined shopping lists will follow only if pilot feedback supports them.' },
       { question: 'Can I rely on it for dietary or medical advice?', answer: 'The project is not intended to provide medical or nutritional advice. The sample recipes have not been professionally tested. We do not claim allergen safety, halal certification, or suitability for medical diets.' },
       { question: 'How can I share feedback or ask about early access?', answer: 'Email ' + project.email + '. The early-access link opens your email application with a subject filled in. It does not register you on a waitlist.' },
     ],
   },
   contact: {
     label: 'Help shape ' + project.name, title: 'What would make cooking easier for you?',
-    description: 'Tell us about the ingredients you often have, the meals you struggle to choose, or what you would want from an early version.',
+    description: 'Interested in trying an early version? Email us about a recent meal you struggled to choose, the ingredients you had, and what would have helped.',
     action: 'Email about early access',
     note: 'Opens your email application. Your interest is sent by email, not stored through this page.',
     portfolioAction: 'Back to the Chiai portfolio',
   },
-  ui: { skipLink: 'Skip to content', menu: 'Menu', navigationLabel: 'Page sections', servings: '2 servings', time: '20 minutes', equipment: '1 frying pan', minutes: 'min', backToTop: 'Back to top' },
+  ui: {
+    skipLink: 'Skip to content', menu: 'Menu', navigationLabel: 'Page sections',
+    appearanceLabel: 'Theme', appearanceOptions: [
+      { value: 'system', label: 'System' }, { value: 'light', label: 'Light' }, { value: 'dark', label: 'Dark' },
+    ],
+    servings: '2 servings', time: '20 minutes', equipment: '1 frying pan', minutes: 'min', backToTop: 'Back to top',
+  },
 }
 
 export const sample = {
@@ -136,7 +142,7 @@ export const sample = {
         { id: 'onion', amount: 50, label: '50 g onion' }, { id: 'rice', amount: 400, label: '400 g cooked rice' },
         { id: 'oil', amount: 1, label: '1 tbsp cooking oil' }, { id: 'salt', amount: 0.25, label: '¼ tsp salt' },
       ],
-      extras: [{ id: 'tomatoes', amount: 250, label: '2 tomatoes (250 g)' }],
+      extras: [{ id: 'tomatoes', amount: 2, unit: 'count', label: '2 tomatoes' }],
       fit: 'One named extra gives the same pantry a different meal.',
       steps: [
         'Chop the tomatoes. Thinly slice the cabbage and onion, and beat the eggs.',

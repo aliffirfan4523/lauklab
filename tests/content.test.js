@@ -39,7 +39,9 @@ test('missing ingredients remain distinct from ingredients already in the pantry
   const withExtras = sample.meals.filter((meal) => meal.extras.length > 0)
   assert.equal(withExtras.length, 1)
   assert.equal(withExtras[0].extras[0].id, 'tomatoes')
-  assert.equal(withExtras[0].extras[0].amount, 250)
+  assert.equal(withExtras[0].extras[0].amount, 2)
+  assert.equal(withExtras[0].extras[0].unit, 'count')
+  assert.equal(withExtras[0].extras[0].label, '2 tomatoes')
   const owned = new Set(sample.ingredients.map((ingredient) => ingredient.id))
   for (const meal of withExtras) {
     for (const extra of meal.extras) assert.ok(!owned.has(extra.id))

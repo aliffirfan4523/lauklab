@@ -10,9 +10,9 @@ Public contact: [aliff@chiai.my](mailto:aliff@chiai.my?subject=lauklab%20by%20Ch
 
 The sample has 2 servings, a 20-minute limit, and a frying pan. It starts with 4 eggs, 200 g cabbage, 100 g onion, 400 g cooked rice, 2 tbsp oil, and 0.5 tsp salt.
 
-It illustrates three alternatives: an 18-minute egg and cabbage fried rice, a 20-minute cabbage omelette with rice, and 20-minute tomato, egg, and cabbage bowls. The first two need no extras; the tomato option adds 2 tomatoes (250 g).
+It illustrates three alternatives: an 18-minute egg and cabbage fried rice, a 20-minute cabbage omelette with rice, and 20-minute tomato, egg, and cabbage bowls. The first two need no extras; the tomato option adds 2 tomatoes, measured by count.
 
-The page labels this explicitly: **Illustrative preview — sample data, not live AI.** Recipes are not professionally tested. The current site makes no live AI calls and does not collect form submissions or create accounts.
+The page labels this explicitly: **Illustrative preview — sample data, not live AI.** Recipes are not professionally tested. The current site makes no live AI calls and does not collect form submissions or create accounts. System/Light/Dark appearance is available; only an optional appearance preference is stored locally.
 
 ## Proposed MVP direction
 
@@ -20,7 +20,9 @@ The next useful step is a small pilot built around a curated recipe set used wit
 
 Normalize Malay and English ingredient descriptions into shared ingredient names. Keep quantity handling and recipe matching deterministic so the system can explain which ingredients are available, which are short, and which recipes fit the stated constraints.
 
-Claude could help interpret ingredient descriptions and explain the selected matches. That role should support the recipe data and deterministic matching. Any future integration would keep credentials on the server, validate inputs and returned data, set rate and cost limits, use timeouts, and provide a useful fallback when interpretation is unavailable.
+AI could help interpret ingredient descriptions and explain the selected matches. That role should support the recipe data and deterministic matching. Any future integration would keep credentials on the server, validate inputs and returned data, set rate and cost limits, use timeouts, and provide a useful fallback when interpretation is unavailable.
+
+The first complete release is intended to cover confirmed pantry quantities, reviewed English/Malay ingredient input, curated meal matching, guided cooking, and saved recipes. The interface starts in English. Planning a week and aggregating a shopping list are later candidates, conditional on repeated use and pilot feedback. This roadmap is a design direction, not a statement that the features are available now.
 
 Pilot the smallest complete flow with a limited group, check whether the suggestions are practical, and use that evidence before broadening the recipe catalogue or product. This is a proposed direction only. No API integration, model/version selection, production architecture, or technology decision is made by this document.
 
@@ -28,4 +30,4 @@ Pilot the smallest complete flow with a limited group, check whether the suggest
 
 Describe the project at its actual stage. Do not imply a programme partnership, institutional endorsement, or registered-company status. Do not claim the illustrative recipes are professionally tested or that the preview is a live service.
 
-Hosting is still undecided. Publishing this standalone site must be a separate step after a destination is confirmed; it does not include changing the existing portfolio or DNS.
+The existing Firebase project `chiai-my` and separate Hosting site/target `lauklab` are configured locally. The intended custom domain remains `lauklab.chiai.my`, pending an approved domain connection. See [hosting instructions](HOSTING.md). This design refinement does not deploy a release, change the existing portfolio, or edit DNS.

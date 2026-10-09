@@ -1,6 +1,12 @@
 <script setup>
+import { ref } from 'vue'
 import { copy, earlyAccessHref, navigation, project, sample } from './content.js'
 import SamplePreview from './components/SamplePreview.vue'
+import { createThemePreference } from './theme.js'
+
+const appearance = createThemePreference(document.documentElement, () => window.localStorage)
+const themePreference = ref(appearance.preference)
+function changeTheme() { appearance.set(themePreference.value) }
 </script>
 
 <template>
@@ -19,13 +25,19 @@ import SamplePreview from './components/SamplePreview.vue'
           <a v-for="item in navigation" :key="item.href" :href="item.href">{{ item.label }}</a>
         </nav>
       </details>
+      <div class="theme-control">
+        <label for="theme-preference">{{ copy.ui.appearanceLabel }}</label>
+        <select id="theme-preference" v-model="themePreference" @change="changeTheme">
+          <option v-for="option in copy.ui.appearanceOptions" :key="option.value" :value="option.value">{{ option.label }}</option>
+        </select>
+      </div>
     </header>
     <main id="main">
       <section class="hero shell" aria-labelledby="hero-heading">
         <div class="hero-copy">
-          <p class="eyebrow">{{ copy.hero.status }}</p>
           <h1 id="hero-heading">{{ copy.hero.headline }}</h1>
           <p class="hero-description">{{ copy.hero.description }}</p>
+          <p class="development-note">{{ copy.hero.status }}</p>
           <div class="hero-actions">
             <a class="button" href="#preview">{{ copy.hero.previewAction }}</a>
             <a class="text-link" :href="earlyAccessHref">{{ copy.hero.contactAction }}</a>
@@ -43,7 +55,6 @@ import SamplePreview from './components/SamplePreview.vue'
       <section id="idea" class="idea-section" aria-labelledby="idea-heading">
         <div class="shell idea-grid">
           <div>
-            <p class="eyebrow">{{ copy.idea.label }}</p>
             <h2 id="idea-heading">{{ copy.idea.title }}</h2>
             <p>{{ copy.idea.description }}</p><p>{{ copy.idea.goal }}</p>
             <ul class="goals-list"><li v-for="goal in copy.idea.goals" :key="goal">{{ goal }}</li></ul>
@@ -57,7 +68,7 @@ import SamplePreview from './components/SamplePreview.vue'
       <SamplePreview />
       <section class="future-section shell">
         <div class="planned" aria-labelledby="planned-heading">
-          <p class="eyebrow">{{ copy.planned.label }}</p><h2 id="planned-heading">{{ copy.planned.title }}</h2><p>{{ copy.planned.description }}</p>
+          <h2 id="planned-heading">{{ copy.planned.title }}</h2><p>{{ copy.planned.description }}</p>
           <ul class="feature-list">
             <li v-for="feature in copy.planned.features" :key="feature.name">
               <div class="feature-heading"><h3>{{ feature.name }}</h3><span>{{ copy.planned.status }}</span></div><p>{{ feature.description }}</p>
@@ -65,7 +76,7 @@ import SamplePreview from './components/SamplePreview.vue'
           </ul>
         </div>
         <div id="roadmap" class="roadmap" aria-labelledby="roadmap-heading">
-          <p class="eyebrow">{{ copy.roadmap.label }}</p><h2 id="roadmap-heading">{{ copy.roadmap.title }}</h2>
+          <h2 id="roadmap-heading">{{ copy.roadmap.title }}</h2>
           <ol class="roadmap-list">
             <li v-for="stage in copy.roadmap.stages" :key="stage.label">
               <span class="stage-label">{{ stage.label }}</span><div><h3>{{ stage.title }}</h3><p>{{ stage.description }}</p></div>
@@ -75,7 +86,7 @@ import SamplePreview from './components/SamplePreview.vue'
       </section>
       <section class="about-section" aria-labelledby="about-heading">
         <div class="shell about-grid">
-          <div><p class="eyebrow">{{ copy.about.label }}</p><h2 id="about-heading">{{ copy.about.title }}</h2></div>
+          <div><h2 id="about-heading">{{ copy.about.title }}</h2></div>
           <div><p>{{ copy.about.description }}</p><a class="text-link" :href="project.portfolioUrl">{{ copy.contact.portfolioAction }}</a></div>
         </div>
       </section>
@@ -85,7 +96,7 @@ import SamplePreview from './components/SamplePreview.vue'
       </section>
       <section id="contact" class="contact-section" aria-labelledby="contact-heading">
         <div class="shell contact-inner">
-          <p class="eyebrow">{{ copy.contact.label }}</p><h2 id="contact-heading">{{ copy.contact.title }}</h2><p>{{ copy.contact.description }}</p>
+          <h2 id="contact-heading">{{ copy.contact.title }}</h2><p>{{ copy.contact.description }}</p>
           <a class="button button-light" :href="earlyAccessHref">{{ copy.contact.action }}</a><p class="contact-note">{{ copy.contact.note }}</p>
           <a class="contact-email" :href="'mailto:' + project.email">{{ project.email }}</a>
         </div>

@@ -6,7 +6,7 @@ import { copy, sample } from '../content.js'
   <section id="preview" class="preview-section" aria-labelledby="preview-heading">
     <div class="shell">
       <div class="preview-heading">
-        <div><p class="eyebrow">{{ copy.preview.label }}</p><h2 id="preview-heading">{{ copy.preview.title }}</h2></div><p>{{ copy.preview.description }}</p>
+        <div><h2 id="preview-heading">{{ copy.preview.title }}</h2></div><p>{{ copy.preview.description }}</p>
       </div>
       <p class="preview-disclaimer">{{ copy.preview.disclaimer }}</p>
       <div class="meal-grid">
