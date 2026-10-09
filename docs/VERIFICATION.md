@@ -1,6 +1,6 @@
 # Verification and antislop Delivery Gate
 
-Earlier sections record historical revisions, including the original fixed-light direction. The current appearance/readability evidence is recorded separately in the final **Founder-focused landing refinement** section below; historical results should not be read as current hosting or theme settings.
+Earlier sections record historical revisions, including the original fixed-light direction. Current logo, richer app UI, Apple-inspired scroll motion, complete checks and the antislop Delivery Gate are in [the 2026-10-09 brand/UI verification](BRAND-UI-VERIFICATION.md). Historical results should not be read as current content, hosting or theme settings.
 
 Verified on 2026-10-08 using the local production preview. Antislop mode: during (session override). Design dials: ENERGY 2 / RHYTHM 3 / MOTION 1.
 
@@ -29,8 +29,8 @@ Initial browser failures were new implementation issues, not pre-existing failur
 - PASS: the first Tab exposes the skip link with a 3px focus outline; Enter navigates to main content.
 - PASS: wordmark and footer Back to top links navigate to #top.
 - PASS: visible mobile links and disclosure controls have at least 44px width and height.
-- PASS: both early-access links contain mailto:aliff@chiai.my with the encoded subject lauklab by Chiai - early access interest. The readable email link uses mailto:aliff@chiai.my. Destination and encoding inspected; external mail applications were not launched.
-- PASS: both portfolio links point to the supplied https://chiai.my destination. The remote portfolio and its hosting were not tested.
+- Historical check: the former email actions and subject encoding passed inspection. These actions have since been removed at the owner’s request; see the latest update below.
+- Historical check: the former portfolio hrefs passed inspection. These links have since been removed; the remote portfolio and its hosting were not tested.
 - PASS: generated HTML includes the centralized title, description, and Open Graph text. No canonical URL is emitted.
 - PASS: browser request capture contains only local document/script/stylesheet traffic, with zero fetch/XHR or external requests.
 - PASS: zero browser console errors and zero uncaught page errors after the fixes.
@@ -155,7 +155,7 @@ Exact browser observations are saved in [landing-check-results.json](landing-che
 - PASS: **five interaction groups** cover the rendered page/disclaimer/metadata, desktop navigation and all nine disclosures, mobile Menu and destinations, email/portfolio/top links, and keyboard skip link/Theme selection. Three recipe and six FAQ disclosures open and close with click, Enter, and Space. All four desktop/mobile destinations exist and are reached. Hero action reaches `#preview`.
 - PASS: normal-text contrast for **12 light pairs**, minimum **5.14:1**; **13 dark pairs**, minimum **6.89:1**. Measurements include the expanded cooking instructions and FAQ answers, native Theme text, page/surface/panel text, and missing-ingredient disclosure.
 - PASS: eight control/focus contrast checks: Theme boundary 4.18:1 light / 5.06:1 dark; focus against page 5.14:1 / 9.33:1; focus against surface 5.61:1 / 8.28:1; panel focus 8.42:1 in both themes. Native Theme and skip-link focus have a visible 3px outline.
-- PASS: all three email links address `aliff@chiai.my`; both early-access links preserve the encoded subject `lauklab by Chiai - early access interest`. Portfolio links remain `https://chiai.my`. External applications/destinations were inspected rather than launched.
+- Historical check: the former email and portfolio destinations matched the then-current content; they are removed in the latest update.
 - PASS: one H1, three sample meal alternatives, exact **Illustrative preview — sample data, not live AI.** label, intended title, and no canonical URL.
 - PASS: zero browser console errors, zero page errors, zero external requests, and zero fetch/XHR requests. The 15 observed requests are local document/script/stylesheet traffic.
 
@@ -172,3 +172,50 @@ Representative captures were visually inspected: [light desktop](screenshots/fou
 Capture follow-up: the [full dark page](screenshots/founder-dark-desktop-full.png) was recaptured after scrolling through the page and waiting for two animation frames at each viewport position. The final full capture and dedicated [dark idea](screenshots/founder-dark-idea.png) / [dark contact](screenshots/founder-dark-contact.png) captures were visually inspected; both green panels contain readable cream text. This was a focused screenshot/repaint check, with no source changes or repeated full audit.
 
 Unchecked: physical devices, Safari/Firefox, screen-reader operation, external mail-client launch, remote portfolio behavior, professional recipe testing, cloud publishing, and DNS. The 200% check changes root text size and verifies reflow; browser-toolbar zoom was not operated. Theme storage contains only an optional preference. No visitor ingredient data, signup, account, or live AI service was introduced.
+
+## Website and email removal, 2026-10-09
+
+This update supersedes the historical email/portfolio checks above. By Chiai branding remains. External website/email references and their actions are removed from the landing page and mobile Help; no replacement destination or waitlist is invented. The Contact section and its navigation entry are removed. Current documentation and generated HTML/assets contain no removed domain text. Firebase and CI configuration are unchanged.
+
+Fresh checks:
+
+- `npm test`: PASS, 12 tests, including retained branding and absent external contact content.
+- `npm run build`: PASS, output in `public/`.
+- `node docs/landing-check.cjs`: PASS, 15 layout/target checks, 11 theme checks and five interaction groups. All three navigation destinations and five FAQs work; email actions are absent. Rendered text contrast passes for 12 pairs per theme, minimum 5.14:1 light / 6.89:1 dark. Zero console errors, external requests or preview API requests. Eight landing captures refreshed; the obsolete dedicated contact capture removed.
+- Mobile `node verify-all.cjs --flows-only`, with and without `--dark`: PASS, 13 freshly repeated interaction groups per theme. Existing matrix evidence is retained; the full 144-layout matrices were not repeated for this deletion.
+- Mobile `node verify-appearance.cjs`: PASS, seven focused checks, 48 rendered-contrast screen checks and 48 enlarged-text/spacing reflows; zero errors or external requests.
+- Mobile `verification-contact-removal.json`: PASS, all 24 screens in both themes have no removed domain/email links, eight expanded Help layout/touch-target checks at iOS/Android sizes, retained branding and gallery HTTP 200 with 24 frames. Four Help captures refreshed.
+
+The antislop Delivery Gate remains PASS for this browser scope: functional local navigation and disclosures, readable contrast and visible focus, >=48px checked targets, enlarged-text reflow, truthful prototype limits and consistent ENERGY 2 / RHYTHM 3 / MOTION 1. No physical-device, assistive-technology or real-service checks were added. Figma is deferred; no deployment, DNS edit, commit or push occurred.
+
+## Closed beta, app screens and Malaysian recipes, 2026-10-09
+
+The owner confirms closed beta testing. This update supersedes the original public illustrative label, old recipes, native theme dropdown and twenty-minute window. The public website has no illustrative/demo wording, retains by Chiai, and has no removed domain/email references. It does not invent tester counts, partnerships or public sign-up.
+
+| Fresh check | Exact result |
+| --- | --- |
+| npm test | PASS: 13 tests covering recipe quantities/units, sources, all named ingredients in steps, beta copy, theme storage and hosting/CI isolation |
+| npm run build | PASS: 21 modules, six bundled PNG app screens and public/index.html; source assets total approximately 215 KB |
+| docs/landing-check.cjs | PASS: 15 responsive/target checks, 11 theme checks and five interaction groups |
+| Website contrast | PASS: 11 rendered text pairs per theme, minimum 5.14:1 light / 6.89:1 dark; eight boundary/focus checks |
+| Website interactions | PASS: four navigation destinations, both hero actions, three recipe and five FAQ disclosures, all theme buttons, keyboard focus and three screen buttons; app images decode and follow appearance |
+| Website requests/errors | PASS: no preview API calls, external requests, console errors or uncaught page errors |
+| Mobile full matrices | PASS per theme: 144 layouts, 22 state/long-text checks, 13 flow groups and 44 captures, with Malaysian recipe data |
+| Mobile appearance | PASS: seven checks, 48 rendered-contrast screens and 48 enlarged-text/spacing reflows; zero errors/external requests |
+| Final staple-label change | PASS: both 13-group flow suites and all appearance/reflow checks repeated; confirmation displays actual 6 tbsp oil / 1 tsp salt rather than former hardcoded quantities |
+
+The expanded mobile recipe source link initially measured 45px high. Its shared style now provides a >=48px target and the theme's green foreground; the full matrices passed after that fix. The shorter Meals navigation link also now has >=48px width. The only recipe-dependent test failures were obsolete fixture expectations, updated to the current data. Guest/account review still keeps one selected quantity instead of adding guest and backup amounts.
+
+Screenshots: founder-light/dark-desktop, desktop-full, mobile and preview captures were refreshed, plus beta-light/dark-app. Six current Cook/Pantry/Recipe images live in src/assets/app and are copied into the production build by Vite. The mobile matrices refreshed 88 captures. Recipe inspiration links are valid native HTTPS destinations; no publisher content or email client was launched during browser checks.
+
+### Antislop Delivery Gate: PASS for the verified browser scope
+
+- R-02/R-17/R-18/R-36/R-38 PASS: no new em-dash UI copy, fabricated users, ratings, numbers, outcomes, partnerships or certification. Beta status is supplied by the owner; recipe inspiration uses checked publisher URLs.
+- R-03/R-25 PASS: all 15 website layouts/targets and both mobile matrices pass; website text contrast is >=5.14:1, and all 48 app contrast scans pass. Large-text/spacing reflow passes.
+- R-23/R-24 PASS: reused and captured the approved app screens for the requested preview; no food photography or invented assets. All four section links and hero destinations exist.
+- R-26/R-27/R-28/R-32/R-33/R-35 PASS for scope: labelled button groups, theme persistence/storage failure, native disclosures, retained mobile drafts, reviewed deductions/shopping/merge and keyboard focus are verified. Website preview has no API/loading/input service to fake.
+- R-37 PASS: current DESIGN.md retains the approved palette, cookbook typography and ENERGY 2 / RHYTHM 3 / MOTION 1.
+- Purpose Gate PASS: green marks actions, orange marks ingredient review, the phone frame identifies app screens, and matching recipe columns support comparison. No decorative gradients, glass, statistics or motion were added.
+- Liveliness/Craftsmanship PASS for browser scope: varied page sections, genuine app screens, consistent themes, named source links, accessible controls and refreshed desktop/mobile evidence.
+
+Limits: app images are screen captures, not a native app installation. Native devices, VoiceOver/TalkBack, real cooking and beta participant outcomes were not tested. Figma, Firebase/CI configuration and DNS are unchanged. No publishing, commit or push occurred.

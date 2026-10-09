@@ -15,7 +15,7 @@
         },
         {
           "label": "lauklab\nby Chiai",
-          "width": 197.09375,
+          "width": 164.3125,
           "height": 69.1875
         },
         {
@@ -40,47 +40,96 @@
           "height": 48
         },
         {
-          "label": "System\nLight\nDark",
-          "width": 128,
+          "width": 66.90625,
           "height": 48
         },
         {
-          "label": "See the sample meals",
-          "width": 198.34375,
+          "label": "System",
+          "width": 93.65625,
+          "height": 48
+        },
+        {
+          "label": "Light",
+          "width": 80.546875,
+          "height": 48
+        },
+        {
+          "label": "Dark",
+          "width": 78.28125,
+          "height": 48
+        },
+        {
+          "label": "Explore the app",
+          "width": 155.984375,
           "height": 51.78125
         },
         {
-          "label": "Ask about early access",
-          "width": 162.6875,
+          "label": "Browse Malaysian meals",
+          "width": 175.96875,
           "height": 48
         },
         {
-          "label": "See sample steps\n: Egg and cabbage fried rice",
+          "label": "Cook",
+          "width": 67.953125,
+          "height": 48
+        },
+        {
+          "label": "Pantry",
+          "width": 76.375,
+          "height": 48
+        },
+        {
+          "label": "Recipe",
+          "width": 77.09375,
+          "height": 48
+        },
+        {
+          "label": "See cooking steps\n: Nasi goreng kampung",
           "width": 233.21875,
           "height": 48
         },
         {
-          "label": "See sample steps\n: Cabbage omelette with rice",
+          "label": "Recipe inspiration: Che Nom\n: Nasi goreng kampung (opens a new tab)",
+          "width": 175.015625,
+          "height": 48
+        },
+        {
+          "label": "See cooking steps\n: Mee goreng mamak",
           "width": 233.21875,
           "height": 48
         },
         {
-          "label": "See sample steps\n: Tomato, egg and cabbage rice bowls",
+          "label": "Recipe inspiration: Che Nom\n: Mee goreng mamak (opens a new tab)",
+          "width": 175.015625,
+          "height": 48
+        },
+        {
+          "label": "See cooking steps\n: Bihun goreng",
           "width": 233.21875,
           "height": 48
         },
         {
-          "label": "Back to the Chiai portfolio",
-          "width": 190.671875,
+          "label": "Recipe inspiration: Che Nom\n: Bihun goreng (opens a new tab)",
+          "width": 175.015625,
           "height": 48
         },
         {
-          "label": "Can I use the application yet?",
+          "label": "Read our approach",
+          "width": 137.609375,
+          "height": 48
+        },
+        {
+          "label": "See what comes next",
+          "width": 152.734375,
+          "height": 48
+        },
+        {
+          "label": "Can I join the beta?",
           "width": 280,
           "height": 54
         },
         {
-          "label": "Does this preview use live AI?",
+          "label": "How are the recipes chosen?",
           "width": 280,
           "height": 54
         },
@@ -100,23 +149,23 @@
           "height": 74
         },
         {
-          "label": "How can I share feedback or ask about early access?",
-          "width": 280,
-          "height": 74
-        },
-        {
-          "label": "Email about early access",
-          "width": 217.8125,
-          "height": 51.78125
-        },
-        {
-          "label": "aliff@chiai.my",
-          "width": 144.046875,
+          "label": "About us",
+          "width": 63.8125,
           "height": 48
         },
         {
-          "label": "Back to the Chiai portfolio",
-          "width": 183.953125,
+          "label": "Our approach",
+          "width": 97.546875,
+          "height": 48
+        },
+        {
+          "label": "Closed beta",
+          "width": 83.453125,
+          "height": 48
+        },
+        {
+          "label": "FAQ",
+          "width": 48,
           "height": 48
         },
         {
@@ -141,7 +190,7 @@
         },
         {
           "label": "lauklab\nby Chiai",
-          "width": 267.09375,
+          "width": 164.3125,
           "height": 69.1875
         },
         {
@@ -166,47 +215,96 @@
           "height": 48
         },
         {
-          "label": "System\nLight\nDark",
-          "width": 128,
+          "width": 66.90625,
           "height": 48
         },
         {
-          "label": "See the sample meals",
-          "width": 198.34375,
+          "label": "System",
+          "width": 93.65625,
+          "height": 48
+        },
+        {
+          "label": "Light",
+          "width": 80.546875,
+          "height": 48
+        },
+        {
+          "label": "Dark",
+          "width": 78.28125,
+          "height": 48
+        },
+        {
+          "label": "Explore the app",
+          "width": 155.984375,
           "height": 51.78125
         },
         {
-          "label": "Ask about early access",
-          "width": 162.6875,
+          "label": "Browse Malaysian meals",
+          "width": 175.96875,
           "height": 48
         },
         {
-          "label": "See sample steps\n: Egg and cabbage fried rice",
+          "label": "Cook",
+          "width": 67.953125,
+          "height": 48
+        },
+        {
+          "label": "Pantry",
+          "width": 76.375,
+          "height": 48
+        },
+        {
+          "label": "Recipe",
+          "width": 77.09375,
+          "height": 48
+        },
+        {
+          "label": "See cooking steps\n: Nasi goreng kampung",
           "width": 303.21875,
           "height": 48
         },
         {
-          "label": "See sample steps\n: Cabbage omelette with rice",
+          "label": "Recipe inspiration: Che Nom\n: Nasi goreng kampung (opens a new tab)",
+          "width": 175.015625,
+          "height": 48
+        },
+        {
+          "label": "See cooking steps\n: Mee goreng mamak",
           "width": 303.21875,
           "height": 48
         },
         {
-          "label": "See sample steps\n: Tomato, egg and cabbage rice bowls",
+          "label": "Recipe inspiration: Che Nom\n: Mee goreng mamak (opens a new tab)",
+          "width": 175.015625,
+          "height": 48
+        },
+        {
+          "label": "See cooking steps\n: Bihun goreng",
           "width": 303.21875,
           "height": 48
         },
         {
-          "label": "Back to the Chiai portfolio",
-          "width": 190.671875,
+          "label": "Recipe inspiration: Che Nom\n: Bihun goreng (opens a new tab)",
+          "width": 175.015625,
           "height": 48
         },
         {
-          "label": "Can I use the application yet?",
+          "label": "Read our approach",
+          "width": 137.609375,
+          "height": 48
+        },
+        {
+          "label": "See what comes next",
+          "width": 152.734375,
+          "height": 48
+        },
+        {
+          "label": "Can I join the beta?",
           "width": 350,
           "height": 54
         },
         {
-          "label": "Does this preview use live AI?",
+          "label": "How are the recipes chosen?",
           "width": 350,
           "height": 54
         },
@@ -226,23 +324,23 @@
           "height": 54
         },
         {
-          "label": "How can I share feedback or ask about early access?",
-          "width": 350,
-          "height": 74
-        },
-        {
-          "label": "Email about early access",
-          "width": 217.8125,
-          "height": 51.78125
-        },
-        {
-          "label": "aliff@chiai.my",
-          "width": 144.046875,
+          "label": "About us",
+          "width": 63.8125,
           "height": 48
         },
         {
-          "label": "Back to the Chiai portfolio",
-          "width": 183.953125,
+          "label": "Our approach",
+          "width": 97.546875,
+          "height": 48
+        },
+        {
+          "label": "Closed beta",
+          "width": 83.453125,
+          "height": 48
+        },
+        {
+          "label": "FAQ",
+          "width": 48,
           "height": 48
         },
         {
@@ -267,7 +365,7 @@
         },
         {
           "label": "lauklab\nby Chiai",
-          "width": 621.09375,
+          "width": 164.3125,
           "height": 69.1875
         },
         {
@@ -292,47 +390,96 @@
           "height": 48
         },
         {
-          "label": "System\nLight\nDark",
-          "width": 128,
+          "width": 66.90625,
           "height": 48
         },
         {
-          "label": "See the sample meals",
-          "width": 198.34375,
+          "label": "System",
+          "width": 93.65625,
+          "height": 48
+        },
+        {
+          "label": "Light",
+          "width": 80.546875,
+          "height": 48
+        },
+        {
+          "label": "Dark",
+          "width": 78.28125,
+          "height": 48
+        },
+        {
+          "label": "Explore the app",
+          "width": 155.984375,
           "height": 51.78125
         },
         {
-          "label": "Ask about early access",
-          "width": 162.6875,
+          "label": "Browse Malaysian meals",
+          "width": 175.96875,
           "height": 48
         },
         {
-          "label": "See sample steps\n: Egg and cabbage fried rice",
+          "label": "Cook",
+          "width": 67.953125,
+          "height": 48
+        },
+        {
+          "label": "Pantry",
+          "width": 76.375,
+          "height": 48
+        },
+        {
+          "label": "Recipe",
+          "width": 77.09375,
+          "height": 48
+        },
+        {
+          "label": "See cooking steps\n: Nasi goreng kampung",
           "width": 295.21875,
           "height": 48
         },
         {
-          "label": "See sample steps\n: Cabbage omelette with rice",
+          "label": "Recipe inspiration: Che Nom\n: Nasi goreng kampung (opens a new tab)",
+          "width": 175.015625,
+          "height": 48
+        },
+        {
+          "label": "See cooking steps\n: Mee goreng mamak",
           "width": 295.21875,
           "height": 48
         },
         {
-          "label": "See sample steps\n: Tomato, egg and cabbage rice bowls",
+          "label": "Recipe inspiration: Che Nom\n: Mee goreng mamak (opens a new tab)",
+          "width": 175.015625,
+          "height": 48
+        },
+        {
+          "label": "See cooking steps\n: Bihun goreng",
           "width": 295.21875,
           "height": 48
         },
         {
-          "label": "Back to the Chiai portfolio",
-          "width": 190.671875,
+          "label": "Recipe inspiration: Che Nom\n: Bihun goreng (opens a new tab)",
+          "width": 175.015625,
           "height": 48
         },
         {
-          "label": "Can I use the application yet?",
+          "label": "Read our approach",
+          "width": 137.609375,
+          "height": 48
+        },
+        {
+          "label": "See what comes next",
+          "width": 152.734375,
+          "height": 48
+        },
+        {
+          "label": "Can I join the beta?",
           "width": 704,
           "height": 54
         },
         {
-          "label": "Does this preview use live AI?",
+          "label": "How are the recipes chosen?",
           "width": 704,
           "height": 54
         },
@@ -352,23 +499,23 @@
           "height": 54
         },
         {
-          "label": "How can I share feedback or ask about early access?",
-          "width": 704,
-          "height": 54
-        },
-        {
-          "label": "Email about early access",
-          "width": 217.8125,
-          "height": 51.78125
-        },
-        {
-          "label": "aliff@chiai.my",
-          "width": 148.171875,
+          "label": "About us",
+          "width": 63.8125,
           "height": 48
         },
         {
-          "label": "Back to the Chiai portfolio",
-          "width": 183.953125,
+          "label": "Our approach",
+          "width": 97.546875,
+          "height": 48
+        },
+        {
+          "label": "Closed beta",
+          "width": 83.453125,
+          "height": 48
+        },
+        {
+          "label": "FAQ",
+          "width": 48,
           "height": 48
         },
         {
@@ -393,7 +540,7 @@
         },
         {
           "label": "lauklab\nby Chiai",
-          "width": 101.921875,
+          "width": 164.3125,
           "height": 69.1875
         },
         {
@@ -402,8 +549,13 @@
           "height": 48
         },
         {
-          "label": "Preview",
-          "width": 54.359375,
+          "label": "The app",
+          "width": 57.140625,
+          "height": 48
+        },
+        {
+          "label": "Meals",
+          "width": 48,
           "height": 48
         },
         {
@@ -412,52 +564,97 @@
           "height": 48
         },
         {
-          "label": "Contact",
-          "width": 54.71875,
+          "label": "About us",
+          "width": 63.8125,
           "height": 48
         },
         {
-          "label": "System\nLight\nDark",
-          "width": 128,
+          "label": "System",
+          "width": 93.65625,
           "height": 48
         },
         {
-          "label": "See the sample meals",
-          "width": 198.34375,
+          "label": "Light",
+          "width": 80.546875,
+          "height": 48
+        },
+        {
+          "label": "Dark",
+          "width": 78.28125,
+          "height": 48
+        },
+        {
+          "label": "Explore the app",
+          "width": 155.984375,
           "height": 51.78125
         },
         {
-          "label": "Ask about early access",
-          "width": 162.6875,
+          "label": "Browse Malaysian meals",
+          "width": 175.96875,
           "height": 48
         },
         {
-          "label": "See sample steps\n: Egg and cabbage fried rice",
+          "label": "Cook",
+          "width": 67.953125,
+          "height": 48
+        },
+        {
+          "label": "Pantry",
+          "width": 76.375,
+          "height": 48
+        },
+        {
+          "label": "Recipe",
+          "width": 77.09375,
+          "height": 48
+        },
+        {
+          "label": "See cooking steps\n: Nasi goreng kampung",
           "width": 320.140625,
           "height": 48
         },
         {
-          "label": "See sample steps\n: Cabbage omelette with rice",
+          "label": "Recipe inspiration: Che Nom\n: Nasi goreng kampung (opens a new tab)",
+          "width": 175.015625,
+          "height": 48
+        },
+        {
+          "label": "See cooking steps\n: Mee goreng mamak",
           "width": 320.140625,
           "height": 48
         },
         {
-          "label": "See sample steps\n: Tomato, egg and cabbage rice bowls",
+          "label": "Recipe inspiration: Che Nom\n: Mee goreng mamak (opens a new tab)",
+          "width": 175.015625,
+          "height": 48
+        },
+        {
+          "label": "See cooking steps\n: Bihun goreng",
           "width": 320.15625,
           "height": 48
         },
         {
-          "label": "Back to the Chiai portfolio",
-          "width": 190.671875,
+          "label": "Recipe inspiration: Che Nom\n: Bihun goreng (opens a new tab)",
+          "width": 175.015625,
           "height": 48
         },
         {
-          "label": "Can I use the application yet?",
+          "label": "Read our approach",
+          "width": 137.609375,
+          "height": 48
+        },
+        {
+          "label": "See what comes next",
+          "width": 152.734375,
+          "height": 48
+        },
+        {
+          "label": "Can I join the beta?",
           "width": 673.53125,
           "height": 54
         },
         {
-          "label": "Does this preview use live AI?",
+          "label": "How are the recipes chosen?",
           "width": 673.53125,
           "height": 54
         },
@@ -477,23 +674,23 @@
           "height": 54
         },
         {
-          "label": "How can I share feedback or ask about early access?",
-          "width": 673.53125,
-          "height": 54
-        },
-        {
-          "label": "Email about early access",
-          "width": 217.8125,
-          "height": 51.78125
-        },
-        {
-          "label": "aliff@chiai.my",
-          "width": 205.78125,
+          "label": "About us",
+          "width": 63.8125,
           "height": 48
         },
         {
-          "label": "Back to the Chiai portfolio",
-          "width": 183.953125,
+          "label": "Our approach",
+          "width": 97.546875,
+          "height": 48
+        },
+        {
+          "label": "Closed beta",
+          "width": 83.453125,
+          "height": 48
+        },
+        {
+          "label": "FAQ",
+          "width": 48,
           "height": 48
         },
         {
@@ -518,8 +715,8 @@
         },
         {
           "label": "lauklab\nby Chiai",
-          "width": 74.171875,
-          "height": 382.375
+          "width": 109.890625,
+          "height": 626.375
         },
         {
           "label": "Menu",
@@ -536,6 +733,10 @@
         },
         {
           "width": 133.828125,
+          "height": 48
+        },
+        {
+          "width": 133.828125,
           "height": 86
         },
         {
@@ -543,47 +744,92 @@
           "height": 48
         },
         {
-          "label": "System\nLight\nDark",
-          "width": 256,
-          "height": 88.59375
+          "label": "System",
+          "width": 169.3125,
+          "height": 78.59375
         },
         {
-          "label": "See the sample meals",
+          "label": "Light",
+          "width": 143.09375,
+          "height": 78.59375
+        },
+        {
+          "label": "Dark",
+          "width": 138.5625,
+          "height": 78.59375
+        },
+        {
+          "label": "Explore the app",
           "width": 240,
-          "height": 188.59375
+          "height": 145.59375
         },
         {
-          "label": "Ask about early access",
-          "width": 240,
-          "height": 86
-        },
-        {
-          "label": "See sample steps\n: Egg and cabbage fried rice",
-          "width": 148.40625,
-          "height": 129
-        },
-        {
-          "label": "See sample steps\n: Cabbage omelette with rice",
-          "width": 148.40625,
-          "height": 129
-        },
-        {
-          "label": "See sample steps\n: Tomato, egg and cabbage rice bowls",
-          "width": 148.40625,
-          "height": 129
-        },
-        {
-          "label": "Back to the Chiai portfolio",
+          "label": "Browse Malaysian meals",
           "width": 240,
           "height": 86
         },
         {
-          "label": "Can I use the application yet?",
-          "width": 240,
-          "height": 193
+          "label": "Cook",
+          "width": 135.90625,
+          "height": 81.78125
         },
         {
-          "label": "Does this preview use live AI?",
+          "label": "Pantry",
+          "width": 152.734375,
+          "height": 81.78125
+        },
+        {
+          "label": "Recipe",
+          "width": 154.171875,
+          "height": 81.78125
+        },
+        {
+          "label": "See cooking steps\n: Nasi goreng kampung",
+          "width": 148.40625,
+          "height": 172
+        },
+        {
+          "label": "Recipe inspiration: Che Nom\n: Nasi goreng kampung (opens a new tab)",
+          "width": 148.40625,
+          "height": 111
+        },
+        {
+          "label": "See cooking steps\n: Mee goreng mamak",
+          "width": 148.40625,
+          "height": 172
+        },
+        {
+          "label": "Recipe inspiration: Che Nom\n: Mee goreng mamak (opens a new tab)",
+          "width": 148.40625,
+          "height": 111
+        },
+        {
+          "label": "See cooking steps\n: Bihun goreng",
+          "width": 148.40625,
+          "height": 172
+        },
+        {
+          "label": "Recipe inspiration: Che Nom\n: Bihun goreng (opens a new tab)",
+          "width": 148.40625,
+          "height": 111
+        },
+        {
+          "label": "Read our approach",
+          "width": 240,
+          "height": 86
+        },
+        {
+          "label": "See what comes next",
+          "width": 240,
+          "height": 86
+        },
+        {
+          "label": "Can I join the beta?",
+          "width": 240,
+          "height": 150
+        },
+        {
+          "label": "How are the recipes chosen?",
           "width": 240,
           "height": 193
         },
@@ -603,24 +849,24 @@
           "height": 236
         },
         {
-          "label": "How can I share feedback or ask about early access?",
-          "width": 240,
-          "height": 236
+          "label": "About us",
+          "width": 127.609375,
+          "height": 48
         },
         {
-          "label": "Email about early access",
-          "width": 240,
-          "height": 231.59375
+          "label": "Our approach",
+          "width": 195.078125,
+          "height": 48
         },
         {
-          "label": "aliff@chiai.my",
-          "width": 240,
-          "height": 102
+          "label": "Closed beta",
+          "width": 166.90625,
+          "height": 48
         },
         {
-          "label": "Back to the Chiai portfolio",
-          "width": 240,
-          "height": 86
+          "label": "FAQ",
+          "width": 58.515625,
+          "height": 48
         },
         {
           "label": "Back to top",
@@ -645,7 +891,7 @@
         {
           "label": "lauklab\nby Chiai",
           "width": 144.171875,
-          "height": 210.375
+          "height": 382.375
         },
         {
           "label": "Menu",
@@ -662,6 +908,10 @@
         },
         {
           "width": 133.828125,
+          "height": 48
+        },
+        {
+          "width": 133.828125,
           "height": 86
         },
         {
@@ -669,47 +919,92 @@
           "height": 48
         },
         {
-          "label": "System\nLight\nDark",
-          "width": 256,
-          "height": 88.59375
+          "label": "System",
+          "width": 169.3125,
+          "height": 78.59375
         },
         {
-          "label": "See the sample meals",
-          "width": 310,
-          "height": 145.59375
+          "label": "Light",
+          "width": 143.09375,
+          "height": 78.59375
         },
         {
-          "label": "Ask about early access",
-          "width": 310,
-          "height": 86
+          "label": "Dark",
+          "width": 138.5625,
+          "height": 78.59375
         },
         {
-          "label": "See sample steps\n: Egg and cabbage fried rice",
-          "width": 218.40625,
-          "height": 86
+          "label": "Explore the app",
+          "width": 309.953125,
+          "height": 102.59375
         },
         {
-          "label": "See sample steps\n: Cabbage omelette with rice",
-          "width": 218.40625,
-          "height": 86
-        },
-        {
-          "label": "See sample steps\n: Tomato, egg and cabbage rice bowls",
-          "width": 218.40625,
-          "height": 86
-        },
-        {
-          "label": "Back to the Chiai portfolio",
+          "label": "Browse Malaysian meals",
           "width": 310,
           "height": 86
         },
         {
-          "label": "Can I use the application yet?",
+          "label": "Cook",
+          "width": 135.90625,
+          "height": 81.78125
+        },
+        {
+          "label": "Pantry",
+          "width": 152.734375,
+          "height": 81.78125
+        },
+        {
+          "label": "Recipe",
+          "width": 154.171875,
+          "height": 81.78125
+        },
+        {
+          "label": "See cooking steps\n: Nasi goreng kampung",
+          "width": 218.40625,
+          "height": 129
+        },
+        {
+          "label": "Recipe inspiration: Che Nom\n: Nasi goreng kampung (opens a new tab)",
+          "width": 218.40625,
+          "height": 111
+        },
+        {
+          "label": "See cooking steps\n: Mee goreng mamak",
+          "width": 218.40625,
+          "height": 129
+        },
+        {
+          "label": "Recipe inspiration: Che Nom\n: Mee goreng mamak (opens a new tab)",
+          "width": 218.40625,
+          "height": 111
+        },
+        {
+          "label": "See cooking steps\n: Bihun goreng",
+          "width": 218.40625,
+          "height": 129
+        },
+        {
+          "label": "Recipe inspiration: Che Nom\n: Bihun goreng (opens a new tab)",
+          "width": 218.40625,
+          "height": 111
+        },
+        {
+          "label": "Read our approach",
+          "width": 275.21875,
+          "height": 48
+        },
+        {
+          "label": "See what comes next",
+          "width": 305.46875,
+          "height": 48
+        },
+        {
+          "label": "Can I join the beta?",
           "width": 310,
           "height": 150
         },
         {
-          "label": "Does this preview use live AI?",
+          "label": "How are the recipes chosen?",
           "width": 310,
           "height": 150
         },
@@ -729,24 +1024,24 @@
           "height": 193
         },
         {
-          "label": "How can I share feedback or ask about early access?",
-          "width": 310,
-          "height": 193
+          "label": "About us",
+          "width": 127.609375,
+          "height": 48
         },
         {
-          "label": "Email about early access",
-          "width": 310,
-          "height": 145.59375
+          "label": "Our approach",
+          "width": 195.078125,
+          "height": 48
         },
         {
-          "label": "aliff@chiai.my",
-          "width": 288.09375,
-          "height": 51
+          "label": "Closed beta",
+          "width": 166.90625,
+          "height": 48
         },
         {
-          "label": "Back to the Chiai portfolio",
-          "width": 310,
-          "height": 86
+          "label": "FAQ",
+          "width": 58.515625,
+          "height": 48
         },
         {
           "label": "Back to top",
@@ -770,7 +1065,7 @@
         },
         {
           "label": "lauklab\nby Chiai",
-          "width": 426.171875,
+          "width": 276.640625,
           "height": 138.375
         },
         {
@@ -788,6 +1083,10 @@
         },
         {
           "width": 133.828125,
+          "height": 48
+        },
+        {
+          "width": 133.828125,
           "height": 86
         },
         {
@@ -795,47 +1094,92 @@
           "height": 48
         },
         {
-          "label": "System\nLight\nDark",
-          "width": 256,
-          "height": 88.59375
+          "label": "System",
+          "width": 169.3125,
+          "height": 78.59375
         },
         {
-          "label": "See the sample meals",
-          "width": 394.6875,
+          "label": "Light",
+          "width": 143.09375,
+          "height": 78.59375
+        },
+        {
+          "label": "Dark",
+          "width": 138.5625,
+          "height": 78.59375
+        },
+        {
+          "label": "Explore the app",
+          "width": 309.953125,
           "height": 102.59375
         },
         {
-          "label": "Ask about early access",
-          "width": 325.359375,
+          "label": "Browse Malaysian meals",
+          "width": 351.9375,
           "height": 48
         },
         {
-          "label": "See sample steps\n: Egg and cabbage fried rice",
+          "label": "Cook",
+          "width": 135.90625,
+          "height": 81.78125
+        },
+        {
+          "label": "Pantry",
+          "width": 152.734375,
+          "height": 81.78125
+        },
+        {
+          "label": "Recipe",
+          "width": 154.171875,
+          "height": 81.78125
+        },
+        {
+          "label": "See cooking steps\n: Nasi goreng kampung",
           "width": 500.40625,
           "height": 58
         },
         {
-          "label": "See sample steps\n: Cabbage omelette with rice",
+          "label": "Recipe inspiration: Che Nom\n: Nasi goreng kampung (opens a new tab)",
+          "width": 350.015625,
+          "height": 48
+        },
+        {
+          "label": "See cooking steps\n: Mee goreng mamak",
           "width": 500.40625,
           "height": 58
         },
         {
-          "label": "See sample steps\n: Tomato, egg and cabbage rice bowls",
+          "label": "Recipe inspiration: Che Nom\n: Mee goreng mamak (opens a new tab)",
+          "width": 350.015625,
+          "height": 48
+        },
+        {
+          "label": "See cooking steps\n: Bihun goreng",
           "width": 500.40625,
           "height": 58
         },
         {
-          "label": "Back to the Chiai portfolio",
+          "label": "Recipe inspiration: Che Nom\n: Bihun goreng (opens a new tab)",
+          "width": 350.015625,
+          "height": 48
+        },
+        {
+          "label": "Read our approach",
           "width": 248,
           "height": 86
         },
         {
-          "label": "Can I use the application yet?",
+          "label": "See what comes next",
+          "width": 248,
+          "height": 86
+        },
+        {
+          "label": "Can I join the beta?",
           "width": 592,
           "height": 107
         },
         {
-          "label": "Does this preview use live AI?",
+          "label": "How are the recipes chosen?",
           "width": 592,
           "height": 107
         },
@@ -855,23 +1199,23 @@
           "height": 150
         },
         {
-          "label": "How can I share feedback or ask about early access?",
-          "width": 592,
-          "height": 150
+          "label": "About us",
+          "width": 127.609375,
+          "height": 48
         },
         {
-          "label": "Email about early access",
-          "width": 433.609375,
-          "height": 102.59375
+          "label": "Our approach",
+          "width": 195.078125,
+          "height": 48
         },
         {
-          "label": "aliff@chiai.my",
-          "width": 288.09375,
-          "height": 51
+          "label": "Closed beta",
+          "width": 166.90625,
+          "height": 48
         },
         {
-          "label": "Back to the Chiai portfolio",
-          "width": 367.90625,
+          "label": "FAQ",
+          "width": 58.515625,
           "height": 48
         },
         {
@@ -896,7 +1240,7 @@
         },
         {
           "label": "lauklab\nby Chiai",
-          "width": 197.09375,
+          "width": 164.3125,
           "height": 69.1875
         },
         {
@@ -921,47 +1265,96 @@
           "height": 48
         },
         {
-          "label": "System\nLight\nDark",
-          "width": 128,
+          "width": 66.90625,
           "height": 48
         },
         {
-          "label": "See the sample meals",
-          "width": 198.34375,
+          "label": "System",
+          "width": 93.65625,
+          "height": 48
+        },
+        {
+          "label": "Light",
+          "width": 80.546875,
+          "height": 48
+        },
+        {
+          "label": "Dark",
+          "width": 78.28125,
+          "height": 48
+        },
+        {
+          "label": "Explore the app",
+          "width": 155.984375,
           "height": 51.78125
         },
         {
-          "label": "Ask about early access",
-          "width": 162.6875,
+          "label": "Browse Malaysian meals",
+          "width": 175.96875,
           "height": 48
         },
         {
-          "label": "See sample steps\n: Egg and cabbage fried rice",
+          "label": "Cook",
+          "width": 67.953125,
+          "height": 48
+        },
+        {
+          "label": "Pantry",
+          "width": 76.375,
+          "height": 48
+        },
+        {
+          "label": "Recipe",
+          "width": 77.09375,
+          "height": 48
+        },
+        {
+          "label": "See cooking steps\n: Nasi goreng kampung",
           "width": 233.21875,
           "height": 48
         },
         {
-          "label": "See sample steps\n: Cabbage omelette with rice",
+          "label": "Recipe inspiration: Che Nom\n: Nasi goreng kampung (opens a new tab)",
+          "width": 175.015625,
+          "height": 48
+        },
+        {
+          "label": "See cooking steps\n: Mee goreng mamak",
           "width": 233.21875,
           "height": 48
         },
         {
-          "label": "See sample steps\n: Tomato, egg and cabbage rice bowls",
+          "label": "Recipe inspiration: Che Nom\n: Mee goreng mamak (opens a new tab)",
+          "width": 175.015625,
+          "height": 48
+        },
+        {
+          "label": "See cooking steps\n: Bihun goreng",
           "width": 233.21875,
           "height": 48
         },
         {
-          "label": "Back to the Chiai portfolio",
-          "width": 190.671875,
+          "label": "Recipe inspiration: Che Nom\n: Bihun goreng (opens a new tab)",
+          "width": 175.015625,
           "height": 48
         },
         {
-          "label": "Can I use the application yet?",
+          "label": "Read our approach",
+          "width": 137.609375,
+          "height": 48
+        },
+        {
+          "label": "See what comes next",
+          "width": 152.734375,
+          "height": 48
+        },
+        {
+          "label": "Can I join the beta?",
           "width": 280,
           "height": 54
         },
         {
-          "label": "Does this preview use live AI?",
+          "label": "How are the recipes chosen?",
           "width": 280,
           "height": 54
         },
@@ -981,23 +1374,23 @@
           "height": 74
         },
         {
-          "label": "How can I share feedback or ask about early access?",
-          "width": 280,
-          "height": 74
-        },
-        {
-          "label": "Email about early access",
-          "width": 217.8125,
-          "height": 51.78125
-        },
-        {
-          "label": "aliff@chiai.my",
-          "width": 144.046875,
+          "label": "About us",
+          "width": 63.8125,
           "height": 48
         },
         {
-          "label": "Back to the Chiai portfolio",
-          "width": 183.953125,
+          "label": "Our approach",
+          "width": 97.546875,
+          "height": 48
+        },
+        {
+          "label": "Closed beta",
+          "width": 83.453125,
+          "height": 48
+        },
+        {
+          "label": "FAQ",
+          "width": 48,
           "height": 48
         },
         {
@@ -1022,7 +1415,7 @@
         },
         {
           "label": "lauklab\nby Chiai",
-          "width": 267.09375,
+          "width": 164.3125,
           "height": 69.1875
         },
         {
@@ -1047,47 +1440,96 @@
           "height": 48
         },
         {
-          "label": "System\nLight\nDark",
-          "width": 128,
+          "width": 66.90625,
           "height": 48
         },
         {
-          "label": "See the sample meals",
-          "width": 198.34375,
+          "label": "System",
+          "width": 93.65625,
+          "height": 48
+        },
+        {
+          "label": "Light",
+          "width": 80.546875,
+          "height": 48
+        },
+        {
+          "label": "Dark",
+          "width": 78.28125,
+          "height": 48
+        },
+        {
+          "label": "Explore the app",
+          "width": 155.984375,
           "height": 51.78125
         },
         {
-          "label": "Ask about early access",
-          "width": 162.6875,
+          "label": "Browse Malaysian meals",
+          "width": 175.96875,
           "height": 48
         },
         {
-          "label": "See sample steps\n: Egg and cabbage fried rice",
+          "label": "Cook",
+          "width": 67.953125,
+          "height": 48
+        },
+        {
+          "label": "Pantry",
+          "width": 76.375,
+          "height": 48
+        },
+        {
+          "label": "Recipe",
+          "width": 77.09375,
+          "height": 48
+        },
+        {
+          "label": "See cooking steps\n: Nasi goreng kampung",
           "width": 303.21875,
           "height": 48
         },
         {
-          "label": "See sample steps\n: Cabbage omelette with rice",
+          "label": "Recipe inspiration: Che Nom\n: Nasi goreng kampung (opens a new tab)",
+          "width": 175.015625,
+          "height": 48
+        },
+        {
+          "label": "See cooking steps\n: Mee goreng mamak",
           "width": 303.21875,
           "height": 48
         },
         {
-          "label": "See sample steps\n: Tomato, egg and cabbage rice bowls",
+          "label": "Recipe inspiration: Che Nom\n: Mee goreng mamak (opens a new tab)",
+          "width": 175.015625,
+          "height": 48
+        },
+        {
+          "label": "See cooking steps\n: Bihun goreng",
           "width": 303.21875,
           "height": 48
         },
         {
-          "label": "Back to the Chiai portfolio",
-          "width": 190.671875,
+          "label": "Recipe inspiration: Che Nom\n: Bihun goreng (opens a new tab)",
+          "width": 175.015625,
           "height": 48
         },
         {
-          "label": "Can I use the application yet?",
+          "label": "Read our approach",
+          "width": 137.609375,
+          "height": 48
+        },
+        {
+          "label": "See what comes next",
+          "width": 152.734375,
+          "height": 48
+        },
+        {
+          "label": "Can I join the beta?",
           "width": 350,
           "height": 54
         },
         {
-          "label": "Does this preview use live AI?",
+          "label": "How are the recipes chosen?",
           "width": 350,
           "height": 54
         },
@@ -1107,23 +1549,23 @@
           "height": 54
         },
         {
-          "label": "How can I share feedback or ask about early access?",
-          "width": 350,
-          "height": 74
-        },
-        {
-          "label": "Email about early access",
-          "width": 217.8125,
-          "height": 51.78125
-        },
-        {
-          "label": "aliff@chiai.my",
-          "width": 144.046875,
+          "label": "About us",
+          "width": 63.8125,
           "height": 48
         },
         {
-          "label": "Back to the Chiai portfolio",
-          "width": 183.953125,
+          "label": "Our approach",
+          "width": 97.546875,
+          "height": 48
+        },
+        {
+          "label": "Closed beta",
+          "width": 83.453125,
+          "height": 48
+        },
+        {
+          "label": "FAQ",
+          "width": 48,
           "height": 48
         },
         {
@@ -1148,7 +1590,7 @@
         },
         {
           "label": "lauklab\nby Chiai",
-          "width": 621.09375,
+          "width": 164.3125,
           "height": 69.1875
         },
         {
@@ -1173,47 +1615,96 @@
           "height": 48
         },
         {
-          "label": "System\nLight\nDark",
-          "width": 128,
+          "width": 66.90625,
           "height": 48
         },
         {
-          "label": "See the sample meals",
-          "width": 198.34375,
+          "label": "System",
+          "width": 93.65625,
+          "height": 48
+        },
+        {
+          "label": "Light",
+          "width": 80.546875,
+          "height": 48
+        },
+        {
+          "label": "Dark",
+          "width": 78.28125,
+          "height": 48
+        },
+        {
+          "label": "Explore the app",
+          "width": 155.984375,
           "height": 51.78125
         },
         {
-          "label": "Ask about early access",
-          "width": 162.6875,
+          "label": "Browse Malaysian meals",
+          "width": 175.96875,
           "height": 48
         },
         {
-          "label": "See sample steps\n: Egg and cabbage fried rice",
+          "label": "Cook",
+          "width": 67.953125,
+          "height": 48
+        },
+        {
+          "label": "Pantry",
+          "width": 76.375,
+          "height": 48
+        },
+        {
+          "label": "Recipe",
+          "width": 77.09375,
+          "height": 48
+        },
+        {
+          "label": "See cooking steps\n: Nasi goreng kampung",
           "width": 295.21875,
           "height": 48
         },
         {
-          "label": "See sample steps\n: Cabbage omelette with rice",
+          "label": "Recipe inspiration: Che Nom\n: Nasi goreng kampung (opens a new tab)",
+          "width": 175.015625,
+          "height": 48
+        },
+        {
+          "label": "See cooking steps\n: Mee goreng mamak",
           "width": 295.21875,
           "height": 48
         },
         {
-          "label": "See sample steps\n: Tomato, egg and cabbage rice bowls",
+          "label": "Recipe inspiration: Che Nom\n: Mee goreng mamak (opens a new tab)",
+          "width": 175.015625,
+          "height": 48
+        },
+        {
+          "label": "See cooking steps\n: Bihun goreng",
           "width": 295.21875,
           "height": 48
         },
         {
-          "label": "Back to the Chiai portfolio",
-          "width": 190.671875,
+          "label": "Recipe inspiration: Che Nom\n: Bihun goreng (opens a new tab)",
+          "width": 175.015625,
           "height": 48
         },
         {
-          "label": "Can I use the application yet?",
+          "label": "Read our approach",
+          "width": 137.609375,
+          "height": 48
+        },
+        {
+          "label": "See what comes next",
+          "width": 152.734375,
+          "height": 48
+        },
+        {
+          "label": "Can I join the beta?",
           "width": 704,
           "height": 54
         },
         {
-          "label": "Does this preview use live AI?",
+          "label": "How are the recipes chosen?",
           "width": 704,
           "height": 54
         },
@@ -1233,23 +1724,23 @@
           "height": 54
         },
         {
-          "label": "How can I share feedback or ask about early access?",
-          "width": 704,
-          "height": 54
-        },
-        {
-          "label": "Email about early access",
-          "width": 217.8125,
-          "height": 51.78125
-        },
-        {
-          "label": "aliff@chiai.my",
-          "width": 148.171875,
+          "label": "About us",
+          "width": 63.8125,
           "height": 48
         },
         {
-          "label": "Back to the Chiai portfolio",
-          "width": 183.953125,
+          "label": "Our approach",
+          "width": 97.546875,
+          "height": 48
+        },
+        {
+          "label": "Closed beta",
+          "width": 83.453125,
+          "height": 48
+        },
+        {
+          "label": "FAQ",
+          "width": 48,
           "height": 48
         },
         {
@@ -1274,7 +1765,7 @@
         },
         {
           "label": "lauklab\nby Chiai",
-          "width": 101.921875,
+          "width": 164.3125,
           "height": 69.1875
         },
         {
@@ -1283,8 +1774,13 @@
           "height": 48
         },
         {
-          "label": "Preview",
-          "width": 54.359375,
+          "label": "The app",
+          "width": 57.140625,
+          "height": 48
+        },
+        {
+          "label": "Meals",
+          "width": 48,
           "height": 48
         },
         {
@@ -1293,52 +1789,97 @@
           "height": 48
         },
         {
-          "label": "Contact",
-          "width": 54.71875,
+          "label": "About us",
+          "width": 63.8125,
           "height": 48
         },
         {
-          "label": "System\nLight\nDark",
-          "width": 128,
+          "label": "System",
+          "width": 93.65625,
           "height": 48
         },
         {
-          "label": "See the sample meals",
-          "width": 198.34375,
+          "label": "Light",
+          "width": 80.546875,
+          "height": 48
+        },
+        {
+          "label": "Dark",
+          "width": 78.28125,
+          "height": 48
+        },
+        {
+          "label": "Explore the app",
+          "width": 155.984375,
           "height": 51.78125
         },
         {
-          "label": "Ask about early access",
-          "width": 162.6875,
+          "label": "Browse Malaysian meals",
+          "width": 175.96875,
           "height": 48
         },
         {
-          "label": "See sample steps\n: Egg and cabbage fried rice",
+          "label": "Cook",
+          "width": 67.953125,
+          "height": 48
+        },
+        {
+          "label": "Pantry",
+          "width": 76.375,
+          "height": 48
+        },
+        {
+          "label": "Recipe",
+          "width": 77.09375,
+          "height": 48
+        },
+        {
+          "label": "See cooking steps\n: Nasi goreng kampung",
           "width": 320.140625,
           "height": 48
         },
         {
-          "label": "See sample steps\n: Cabbage omelette with rice",
+          "label": "Recipe inspiration: Che Nom\n: Nasi goreng kampung (opens a new tab)",
+          "width": 175.015625,
+          "height": 48
+        },
+        {
+          "label": "See cooking steps\n: Mee goreng mamak",
           "width": 320.140625,
           "height": 48
         },
         {
-          "label": "See sample steps\n: Tomato, egg and cabbage rice bowls",
+          "label": "Recipe inspiration: Che Nom\n: Mee goreng mamak (opens a new tab)",
+          "width": 175.015625,
+          "height": 48
+        },
+        {
+          "label": "See cooking steps\n: Bihun goreng",
           "width": 320.15625,
           "height": 48
         },
         {
-          "label": "Back to the Chiai portfolio",
-          "width": 190.671875,
+          "label": "Recipe inspiration: Che Nom\n: Bihun goreng (opens a new tab)",
+          "width": 175.015625,
           "height": 48
         },
         {
-          "label": "Can I use the application yet?",
+          "label": "Read our approach",
+          "width": 137.609375,
+          "height": 48
+        },
+        {
+          "label": "See what comes next",
+          "width": 152.734375,
+          "height": 48
+        },
+        {
+          "label": "Can I join the beta?",
           "width": 673.53125,
           "height": 54
         },
         {
-          "label": "Does this preview use live AI?",
+          "label": "How are the recipes chosen?",
           "width": 673.53125,
           "height": 54
         },
@@ -1358,23 +1899,23 @@
           "height": 54
         },
         {
-          "label": "How can I share feedback or ask about early access?",
-          "width": 673.53125,
-          "height": 54
-        },
-        {
-          "label": "Email about early access",
-          "width": 217.8125,
-          "height": 51.78125
-        },
-        {
-          "label": "aliff@chiai.my",
-          "width": 205.78125,
+          "label": "About us",
+          "width": 63.8125,
           "height": 48
         },
         {
-          "label": "Back to the Chiai portfolio",
-          "width": 183.953125,
+          "label": "Our approach",
+          "width": 97.546875,
+          "height": 48
+        },
+        {
+          "label": "Closed beta",
+          "width": 83.453125,
+          "height": 48
+        },
+        {
+          "label": "FAQ",
+          "width": 48,
           "height": 48
         },
         {
@@ -1399,8 +1940,8 @@
         },
         {
           "label": "lauklab\nby Chiai",
-          "width": 74.171875,
-          "height": 382.375
+          "width": 109.890625,
+          "height": 626.375
         },
         {
           "label": "Menu",
@@ -1417,6 +1958,10 @@
         },
         {
           "width": 133.828125,
+          "height": 48
+        },
+        {
+          "width": 133.828125,
           "height": 86
         },
         {
@@ -1424,47 +1969,92 @@
           "height": 48
         },
         {
-          "label": "System\nLight\nDark",
-          "width": 256,
-          "height": 88.59375
+          "label": "System",
+          "width": 169.3125,
+          "height": 78.59375
         },
         {
-          "label": "See the sample meals",
+          "label": "Light",
+          "width": 143.09375,
+          "height": 78.59375
+        },
+        {
+          "label": "Dark",
+          "width": 138.5625,
+          "height": 78.59375
+        },
+        {
+          "label": "Explore the app",
           "width": 240,
-          "height": 188.59375
+          "height": 145.59375
         },
         {
-          "label": "Ask about early access",
-          "width": 240,
-          "height": 86
-        },
-        {
-          "label": "See sample steps\n: Egg and cabbage fried rice",
-          "width": 148.40625,
-          "height": 129
-        },
-        {
-          "label": "See sample steps\n: Cabbage omelette with rice",
-          "width": 148.40625,
-          "height": 129
-        },
-        {
-          "label": "See sample steps\n: Tomato, egg and cabbage rice bowls",
-          "width": 148.40625,
-          "height": 129
-        },
-        {
-          "label": "Back to the Chiai portfolio",
+          "label": "Browse Malaysian meals",
           "width": 240,
           "height": 86
         },
         {
-          "label": "Can I use the application yet?",
-          "width": 240,
-          "height": 193
+          "label": "Cook",
+          "width": 135.90625,
+          "height": 81.78125
         },
         {
-          "label": "Does this preview use live AI?",
+          "label": "Pantry",
+          "width": 152.734375,
+          "height": 81.78125
+        },
+        {
+          "label": "Recipe",
+          "width": 154.171875,
+          "height": 81.78125
+        },
+        {
+          "label": "See cooking steps\n: Nasi goreng kampung",
+          "width": 148.40625,
+          "height": 172
+        },
+        {
+          "label": "Recipe inspiration: Che Nom\n: Nasi goreng kampung (opens a new tab)",
+          "width": 148.40625,
+          "height": 111
+        },
+        {
+          "label": "See cooking steps\n: Mee goreng mamak",
+          "width": 148.40625,
+          "height": 172
+        },
+        {
+          "label": "Recipe inspiration: Che Nom\n: Mee goreng mamak (opens a new tab)",
+          "width": 148.40625,
+          "height": 111
+        },
+        {
+          "label": "See cooking steps\n: Bihun goreng",
+          "width": 148.40625,
+          "height": 172
+        },
+        {
+          "label": "Recipe inspiration: Che Nom\n: Bihun goreng (opens a new tab)",
+          "width": 148.40625,
+          "height": 111
+        },
+        {
+          "label": "Read our approach",
+          "width": 240,
+          "height": 86
+        },
+        {
+          "label": "See what comes next",
+          "width": 240,
+          "height": 86
+        },
+        {
+          "label": "Can I join the beta?",
+          "width": 240,
+          "height": 150
+        },
+        {
+          "label": "How are the recipes chosen?",
           "width": 240,
           "height": 193
         },
@@ -1484,24 +2074,24 @@
           "height": 236
         },
         {
-          "label": "How can I share feedback or ask about early access?",
-          "width": 240,
-          "height": 236
+          "label": "About us",
+          "width": 127.609375,
+          "height": 48
         },
         {
-          "label": "Email about early access",
-          "width": 240,
-          "height": 231.59375
+          "label": "Our approach",
+          "width": 195.078125,
+          "height": 48
         },
         {
-          "label": "aliff@chiai.my",
-          "width": 240,
-          "height": 102
+          "label": "Closed beta",
+          "width": 166.90625,
+          "height": 48
         },
         {
-          "label": "Back to the Chiai portfolio",
-          "width": 240,
-          "height": 86
+          "label": "FAQ",
+          "width": 58.515625,
+          "height": 48
         },
         {
           "label": "Back to top",
@@ -1526,7 +2116,7 @@
         {
           "label": "lauklab\nby Chiai",
           "width": 144.171875,
-          "height": 210.375
+          "height": 382.375
         },
         {
           "label": "Menu",
@@ -1543,6 +2133,10 @@
         },
         {
           "width": 133.828125,
+          "height": 48
+        },
+        {
+          "width": 133.828125,
           "height": 86
         },
         {
@@ -1550,47 +2144,92 @@
           "height": 48
         },
         {
-          "label": "System\nLight\nDark",
-          "width": 256,
-          "height": 88.59375
+          "label": "System",
+          "width": 169.3125,
+          "height": 78.59375
         },
         {
-          "label": "See the sample meals",
-          "width": 310,
-          "height": 145.59375
+          "label": "Light",
+          "width": 143.09375,
+          "height": 78.59375
         },
         {
-          "label": "Ask about early access",
-          "width": 310,
-          "height": 86
+          "label": "Dark",
+          "width": 138.5625,
+          "height": 78.59375
         },
         {
-          "label": "See sample steps\n: Egg and cabbage fried rice",
-          "width": 218.40625,
-          "height": 86
+          "label": "Explore the app",
+          "width": 309.953125,
+          "height": 102.59375
         },
         {
-          "label": "See sample steps\n: Cabbage omelette with rice",
-          "width": 218.40625,
-          "height": 86
-        },
-        {
-          "label": "See sample steps\n: Tomato, egg and cabbage rice bowls",
-          "width": 218.40625,
-          "height": 86
-        },
-        {
-          "label": "Back to the Chiai portfolio",
+          "label": "Browse Malaysian meals",
           "width": 310,
           "height": 86
         },
         {
-          "label": "Can I use the application yet?",
+          "label": "Cook",
+          "width": 135.90625,
+          "height": 81.78125
+        },
+        {
+          "label": "Pantry",
+          "width": 152.734375,
+          "height": 81.78125
+        },
+        {
+          "label": "Recipe",
+          "width": 154.171875,
+          "height": 81.78125
+        },
+        {
+          "label": "See cooking steps\n: Nasi goreng kampung",
+          "width": 218.40625,
+          "height": 129
+        },
+        {
+          "label": "Recipe inspiration: Che Nom\n: Nasi goreng kampung (opens a new tab)",
+          "width": 218.40625,
+          "height": 111
+        },
+        {
+          "label": "See cooking steps\n: Mee goreng mamak",
+          "width": 218.40625,
+          "height": 129
+        },
+        {
+          "label": "Recipe inspiration: Che Nom\n: Mee goreng mamak (opens a new tab)",
+          "width": 218.40625,
+          "height": 111
+        },
+        {
+          "label": "See cooking steps\n: Bihun goreng",
+          "width": 218.40625,
+          "height": 129
+        },
+        {
+          "label": "Recipe inspiration: Che Nom\n: Bihun goreng (opens a new tab)",
+          "width": 218.40625,
+          "height": 111
+        },
+        {
+          "label": "Read our approach",
+          "width": 275.21875,
+          "height": 48
+        },
+        {
+          "label": "See what comes next",
+          "width": 305.46875,
+          "height": 48
+        },
+        {
+          "label": "Can I join the beta?",
           "width": 310,
           "height": 150
         },
         {
-          "label": "Does this preview use live AI?",
+          "label": "How are the recipes chosen?",
           "width": 310,
           "height": 150
         },
@@ -1610,24 +2249,24 @@
           "height": 193
         },
         {
-          "label": "How can I share feedback or ask about early access?",
-          "width": 310,
-          "height": 193
+          "label": "About us",
+          "width": 127.609375,
+          "height": 48
         },
         {
-          "label": "Email about early access",
-          "width": 310,
-          "height": 145.59375
+          "label": "Our approach",
+          "width": 195.078125,
+          "height": 48
         },
         {
-          "label": "aliff@chiai.my",
-          "width": 288.09375,
-          "height": 51
+          "label": "Closed beta",
+          "width": 166.90625,
+          "height": 48
         },
         {
-          "label": "Back to the Chiai portfolio",
-          "width": 310,
-          "height": 86
+          "label": "FAQ",
+          "width": 58.515625,
+          "height": 48
         },
         {
           "label": "Back to top",
@@ -1651,7 +2290,7 @@
         },
         {
           "label": "lauklab\nby Chiai",
-          "width": 426.171875,
+          "width": 276.640625,
           "height": 138.375
         },
         {
@@ -1669,6 +2308,10 @@
         },
         {
           "width": 133.828125,
+          "height": 48
+        },
+        {
+          "width": 133.828125,
           "height": 86
         },
         {
@@ -1676,47 +2319,92 @@
           "height": 48
         },
         {
-          "label": "System\nLight\nDark",
-          "width": 256,
-          "height": 88.59375
+          "label": "System",
+          "width": 169.3125,
+          "height": 78.59375
         },
         {
-          "label": "See the sample meals",
-          "width": 394.6875,
+          "label": "Light",
+          "width": 143.09375,
+          "height": 78.59375
+        },
+        {
+          "label": "Dark",
+          "width": 138.5625,
+          "height": 78.59375
+        },
+        {
+          "label": "Explore the app",
+          "width": 309.953125,
           "height": 102.59375
         },
         {
-          "label": "Ask about early access",
-          "width": 325.359375,
+          "label": "Browse Malaysian meals",
+          "width": 351.9375,
           "height": 48
         },
         {
-          "label": "See sample steps\n: Egg and cabbage fried rice",
+          "label": "Cook",
+          "width": 135.90625,
+          "height": 81.78125
+        },
+        {
+          "label": "Pantry",
+          "width": 152.734375,
+          "height": 81.78125
+        },
+        {
+          "label": "Recipe",
+          "width": 154.171875,
+          "height": 81.78125
+        },
+        {
+          "label": "See cooking steps\n: Nasi goreng kampung",
           "width": 500.40625,
           "height": 58
         },
         {
-          "label": "See sample steps\n: Cabbage omelette with rice",
+          "label": "Recipe inspiration: Che Nom\n: Nasi goreng kampung (opens a new tab)",
+          "width": 350.015625,
+          "height": 48
+        },
+        {
+          "label": "See cooking steps\n: Mee goreng mamak",
           "width": 500.40625,
           "height": 58
         },
         {
-          "label": "See sample steps\n: Tomato, egg and cabbage rice bowls",
+          "label": "Recipe inspiration: Che Nom\n: Mee goreng mamak (opens a new tab)",
+          "width": 350.015625,
+          "height": 48
+        },
+        {
+          "label": "See cooking steps\n: Bihun goreng",
           "width": 500.40625,
           "height": 58
         },
         {
-          "label": "Back to the Chiai portfolio",
+          "label": "Recipe inspiration: Che Nom\n: Bihun goreng (opens a new tab)",
+          "width": 350.015625,
+          "height": 48
+        },
+        {
+          "label": "Read our approach",
           "width": 248,
           "height": 86
         },
         {
-          "label": "Can I use the application yet?",
+          "label": "See what comes next",
+          "width": 248,
+          "height": 86
+        },
+        {
+          "label": "Can I join the beta?",
           "width": 592,
           "height": 107
         },
         {
-          "label": "Does this preview use live AI?",
+          "label": "How are the recipes chosen?",
           "width": 592,
           "height": 107
         },
@@ -1736,23 +2424,23 @@
           "height": 150
         },
         {
-          "label": "How can I share feedback or ask about early access?",
-          "width": 592,
-          "height": 150
+          "label": "About us",
+          "width": 127.609375,
+          "height": 48
         },
         {
-          "label": "Email about early access",
-          "width": 433.609375,
-          "height": 102.59375
+          "label": "Our approach",
+          "width": 195.078125,
+          "height": 48
         },
         {
-          "label": "aliff@chiai.my",
-          "width": 288.09375,
-          "height": 51
+          "label": "Closed beta",
+          "width": 166.90625,
+          "height": 48
         },
         {
-          "label": "Back to the Chiai portfolio",
-          "width": 367.90625,
+          "label": "FAQ",
+          "width": 58.515625,
           "height": 48
         },
         {
@@ -1777,7 +2465,7 @@
         },
         {
           "label": "lauklab\nby Chiai",
-          "width": 266.625,
+          "width": 164.3125,
           "height": 69.1875
         },
         {
@@ -1791,7 +2479,12 @@
           "height": 48
         },
         {
-          "label": "Preview",
+          "label": "The app",
+          "width": 67.375,
+          "height": 48
+        },
+        {
+          "label": "Meals",
           "width": 67.375,
           "height": 48
         },
@@ -1801,52 +2494,97 @@
           "height": 48
         },
         {
-          "label": "Contact",
+          "label": "About us",
           "width": 67.375,
           "height": 48
         },
         {
-          "label": "System\nLight\nDark",
-          "width": 128,
+          "label": "System",
+          "width": 93.65625,
           "height": 48
         },
         {
-          "label": "See the sample meals",
-          "width": 198.34375,
+          "label": "Light",
+          "width": 80.546875,
+          "height": 48
+        },
+        {
+          "label": "Dark",
+          "width": 78.28125,
+          "height": 48
+        },
+        {
+          "label": "Explore the app",
+          "width": 155.984375,
           "height": 51.78125
         },
         {
-          "label": "Ask about early access",
-          "width": 162.6875,
+          "label": "Browse Malaysian meals",
+          "width": 175.96875,
           "height": 48
         },
         {
-          "label": "See sample steps\n: Egg and cabbage fried rice",
+          "label": "Cook",
+          "width": 67.953125,
+          "height": 48
+        },
+        {
+          "label": "Pantry",
+          "width": 76.375,
+          "height": 48
+        },
+        {
+          "label": "Recipe",
+          "width": 77.09375,
+          "height": 48
+        },
+        {
+          "label": "See cooking steps\n: Nasi goreng kampung",
           "width": 303.21875,
           "height": 48
         },
         {
-          "label": "See sample steps\n: Cabbage omelette with rice",
+          "label": "Recipe inspiration: Che Nom\n: Nasi goreng kampung (opens a new tab)",
+          "width": 175.015625,
+          "height": 48
+        },
+        {
+          "label": "See cooking steps\n: Mee goreng mamak",
           "width": 303.21875,
           "height": 48
         },
         {
-          "label": "See sample steps\n: Tomato, egg and cabbage rice bowls",
+          "label": "Recipe inspiration: Che Nom\n: Mee goreng mamak (opens a new tab)",
+          "width": 175.015625,
+          "height": 48
+        },
+        {
+          "label": "See cooking steps\n: Bihun goreng",
           "width": 303.21875,
           "height": 48
         },
         {
-          "label": "Back to the Chiai portfolio",
-          "width": 190.671875,
+          "label": "Recipe inspiration: Che Nom\n: Bihun goreng (opens a new tab)",
+          "width": 175.015625,
           "height": 48
         },
         {
-          "label": "Can I use the application yet?",
+          "label": "Read our approach",
+          "width": 137.609375,
+          "height": 48
+        },
+        {
+          "label": "See what comes next",
+          "width": 152.734375,
+          "height": 48
+        },
+        {
+          "label": "Can I join the beta?",
           "width": 350,
           "height": 54
         },
         {
-          "label": "Does this preview use live AI?",
+          "label": "How are the recipes chosen?",
           "width": 350,
           "height": 54
         },
@@ -1866,23 +2604,23 @@
           "height": 54
         },
         {
-          "label": "How can I share feedback or ask about early access?",
-          "width": 350,
-          "height": 74
-        },
-        {
-          "label": "Email about early access",
-          "width": 217.8125,
-          "height": 51.78125
-        },
-        {
-          "label": "aliff@chiai.my",
-          "width": 144.046875,
+          "label": "About us",
+          "width": 63.8125,
           "height": 48
         },
         {
-          "label": "Back to the Chiai portfolio",
-          "width": 183.953125,
+          "label": "Our approach",
+          "width": 97.546875,
+          "height": 48
+        },
+        {
+          "label": "Closed beta",
+          "width": 83.453125,
+          "height": 48
+        },
+        {
+          "label": "FAQ",
+          "width": 48,
           "height": 48
         },
         {
@@ -1962,24 +2700,25 @@
     }
   ],
   "interactions": [
-    "Built page HTTP 200, expected title/headline, one H1, three meals, exact disclaimer, and no canonical.",
-    "Desktop four section destinations and hero preview action; all three recipes and six FAQs open and close by click/Enter/Space.",
-    "Mobile Menu Enter/Space and all four section links; expanded-menu targets remain at least 48px.",
-    "Three email destinations/encoded subjects, portfolio hrefs, wordmark and Back to top verified; external clients were not launched.",
-    "Keyboard skip link and native Theme selector; 3px focus outline visible on both."
+    "Built page HTTP 200, expected title/headline, one H1, closed-beta status, three Malaysian meals, and no canonical.",
+    "Desktop five section destinations and both hero actions; all three recipes and five FAQs open and close by click/Enter/Space.",
+    "Mobile Menu Enter/Space and all five section links; expanded-menu targets remain at least 48px.",
+    "All four Company footer destinations and both company-section links work; three approach principles and closed registration status are present; recipes use warm cream in light mode.",
+    "Website/email references and mailto actions absent; by Chiai branding retained; wordmark and Back to top verified.",
+    "Keyboard skip link, all Theme buttons and three app-screen controls work; 3px focus outlines; bundled screens decode and follow Dark; recipe source links verified."
   ],
   "contrast": [
     {
       "theme": "light",
       "textPairs": [
         {
-          "text": "Theme selection",
+          "text": "Start with nasi goreng kampung, mee goreng mamak, or bihun goreng. Com",
           "foreground": "rgb(35, 55, 46)",
-          "background": "rgb(255, 253, 247)",
-          "ratio": 12.45643527908352
+          "background": "rgb(242, 237, 223)",
+          "ratio": 10.833086022225887
         },
         {
-          "text": "Email about early access",
+          "text": "A few things to know.",
           "foreground": "rgb(33, 79, 61)",
           "background": "rgb(247, 243, 232)",
           "ratio": 8.416254018713481
@@ -1991,55 +2730,49 @@
           "ratio": 11.42777999408966
         },
         {
-          "text": "Email aliff@chiai.my. The early-access link opens your email applicati",
+          "text": "LaukLab kitchen versions inspired by the recipes linked below. Times i",
           "foreground": "rgb(86, 98, 89)",
-          "background": "rgb(247, 243, 232)",
-          "ratio": 5.762162955607901
+          "background": "rgb(242, 237, 223)",
+          "ratio": 5.462303877434447
         },
         {
-          "text": "See the sample meals",
+          "text": "Selected theme",
           "foreground": "rgb(255, 253, 247)",
           "background": "rgb(33, 79, 61)",
           "ratio": 9.173831096735457
         },
         {
-          "text": "Three ways to use this pantry.",
-          "foreground": "rgb(33, 79, 61)",
-          "background": "rgb(255, 253, 247)",
-          "ratio": 9.173831096735457
-        },
-        {
-          "text": "These are pre-written sample ideas. Times include preparation and are ",
+          "text": "The project is not intended to provide medical or nutritional advice. ",
           "foreground": "rgb(86, 98, 89)",
-          "background": "rgb(255, 253, 247)",
-          "ratio": 6.280835819484126
+          "background": "rgb(247, 243, 232)",
+          "ratio": 5.762162955607901
         },
         {
-          "text": "aliff@chiai.my",
+          "text": "Familiar meals. A clearer plan.",
+          "foreground": "rgb(33, 79, 61)",
+          "background": "rgb(242, 237, 223)",
+          "ratio": 7.978277829708114
+        },
+        {
+          "text": "See what comes next",
           "foreground": "rgb(247, 243, 232)",
           "background": "rgb(33, 79, 61)",
           "ratio": 8.416254018713481
         },
         {
-          "text": "Illustrative preview — sample data, not live AI.",
-          "foreground": "rgb(167, 75, 42)",
-          "background": "rgb(255, 253, 247)",
-          "ratio": 5.605594276193144
-        },
-        {
-          "text": "2 tomatoes",
+          "text": "60 ml water",
           "foreground": "rgb(167, 75, 42)",
           "background": "rgb(247, 243, 232)",
           "ratio": 5.142683013978353
         },
         {
-          "text": "An independent project, with a practical purpose.",
+          "text": "Cooking starts long before the pan gets hot. It starts with knowing wh",
           "foreground": "rgb(33, 79, 61)",
           "background": "rgb(231, 236, 223)",
           "ratio": 7.7591397736746135
         },
         {
-          "text": "Back to the Chiai portfolio",
+          "text": "Read our approach",
           "foreground": "rgb(35, 55, 46)",
           "background": "rgb(231, 236, 223)",
           "ratio": 10.535535415136897
@@ -2048,7 +2781,7 @@
       "boundaries": [
         {
           "name": "Theme control boundary",
-          "ratio": 4.178182447533938
+          "ratio": 3.6336727849172945
         },
         {
           "name": "Focus on page",
@@ -2056,7 +2789,7 @@
         },
         {
           "name": "Focus on surface",
-          "ratio": 5.605594276193144
+          "ratio": 4.87506125461644
         },
         {
           "name": "Focus on panel",
@@ -2068,7 +2801,7 @@
       "theme": "dark",
       "textPairs": [
         {
-          "text": "Theme selection",
+          "text": "Start with nasi goreng kampung, mee goreng mamak, or bihun goreng. Com",
           "foreground": "rgb(242, 242, 233)",
           "background": "rgb(28, 41, 33)",
           "ratio": 13.433765839054747
@@ -2086,64 +2819,52 @@
           "ratio": 15.144889452480395
         },
         {
-          "text": "Email aliff@chiai.my. The early-access link opens your email applicati",
-          "foreground": "rgb(181, 196, 184)",
-          "background": "rgb(21, 30, 25)",
-          "ratio": 9.380119264210094
-        },
-        {
-          "text": "See the sample meals",
-          "foreground": "rgb(16, 37, 26)",
-          "background": "rgb(168, 210, 183)",
-          "ratio": 9.655518031141002
-        },
-        {
-          "text": "Three ways to use this pantry.",
-          "foreground": "rgb(168, 210, 183)",
-          "background": "rgb(28, 41, 33)",
-          "ratio": 9.050974396984994
-        },
-        {
-          "text": "These are pre-written sample ideas. Times include preparation and are ",
+          "text": "LaukLab kitchen versions inspired by the recipes linked below. Times i",
           "foreground": "rgb(181, 196, 184)",
           "background": "rgb(28, 41, 33)",
           "ratio": 8.320319942458692
         },
         {
-          "text": "aliff@chiai.my",
+          "text": "Selected theme",
+          "foreground": "rgb(16, 37, 26)",
+          "background": "rgb(168, 210, 183)",
+          "ratio": 9.655518031141002
+        },
+        {
+          "text": "The project is not intended to provide medical or nutritional advice. ",
+          "foreground": "rgb(181, 196, 184)",
+          "background": "rgb(21, 30, 25)",
+          "ratio": 9.380119264210094
+        },
+        {
+          "text": "Familiar meals. A clearer plan.",
+          "foreground": "rgb(168, 210, 183)",
+          "background": "rgb(28, 41, 33)",
+          "ratio": 9.050974396984994
+        },
+        {
+          "text": "See what comes next",
           "foreground": "rgb(247, 243, 232)",
           "background": "rgb(33, 79, 61)",
           "ratio": 8.416254018713481
         },
         {
-          "text": "Illustrative preview — sample data, not live AI.",
-          "foreground": "rgb(243, 177, 143)",
-          "background": "rgb(28, 41, 33)",
-          "ratio": 8.27967693307366
-        },
-        {
-          "text": "2 tomatoes",
+          "text": "60 ml water",
           "foreground": "rgb(243, 177, 143)",
           "background": "rgb(21, 30, 25)",
           "ratio": 9.334299358494382
         },
         {
-          "text": "An independent project, with a practical purpose.",
+          "text": "Cooking starts long before the pan gets hot. It starts with knowing wh",
           "foreground": "rgb(168, 210, 183)",
           "background": "rgb(40, 62, 49)",
           "ratio": 6.891436179624577
         },
         {
-          "text": "Back to the Chiai portfolio",
+          "text": "Read our approach",
           "foreground": "rgb(242, 242, 233)",
           "background": "rgb(40, 62, 49)",
           "ratio": 10.228505337801595
-        },
-        {
-          "text": "Email about early access",
-          "foreground": "rgb(33, 79, 61)",
-          "background": "rgb(247, 243, 232)",
-          "ratio": 8.416254018713481
         }
       ],
       "boundaries": [
@@ -2172,60 +2893,336 @@
       "type": "document"
     },
     {
-      "url": "http://127.0.0.1:4173/assets/index-I7bOdZbs.js",
+      "url": "http://127.0.0.1:4173/assets/index-Cv6XEsAL.js",
       "type": "script"
     },
     {
-      "url": "http://127.0.0.1:4173/assets/index-BIBBuXZB.css",
+      "url": "http://127.0.0.1:4173/assets/index-xM09OUPi.css",
       "type": "stylesheet"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/lauklab-logo-256-P9gPjly1.png",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/lauklab-logo-256-P9gPjly1.png",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/cook-light-CCAgtSvW.png",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/pantry-light-Ce2f3hDR.png",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/recipe-light-DQ1n3shI.png",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/cook-dark-BuETYeXw.png",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/pantry-dark-NTw5n3bd.png",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/recipe-dark-ByQXrQjT.png",
+      "type": "image"
     },
     {
       "url": "http://127.0.0.1:4173/",
       "type": "document"
     },
     {
-      "url": "http://127.0.0.1:4173/assets/index-I7bOdZbs.js",
+      "url": "http://127.0.0.1:4173/assets/index-Cv6XEsAL.js",
       "type": "script"
     },
     {
-      "url": "http://127.0.0.1:4173/assets/index-BIBBuXZB.css",
+      "url": "http://127.0.0.1:4173/assets/index-xM09OUPi.css",
       "type": "stylesheet"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/cook-light-CCAgtSvW.png",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/pantry-light-Ce2f3hDR.png",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/recipe-light-DQ1n3shI.png",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/nasi-goreng-kampung-DdoFogdW.webp",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/mee-goreng-mamak-BBstzcCO.webp",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/bihun-goreng-BBBBPgzQ.webp",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/lauklab-logo-256-P9gPjly1.png",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/lauklab-logo-256-P9gPjly1.png",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/cook-dark-BuETYeXw.png",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/pantry-dark-NTw5n3bd.png",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/recipe-dark-ByQXrQjT.png",
+      "type": "image"
     },
     {
       "url": "http://127.0.0.1:4173/",
       "type": "document"
     },
     {
-      "url": "http://127.0.0.1:4173/assets/index-I7bOdZbs.js",
+      "url": "http://127.0.0.1:4173/assets/index-Cv6XEsAL.js",
       "type": "script"
     },
     {
-      "url": "http://127.0.0.1:4173/assets/index-BIBBuXZB.css",
+      "url": "http://127.0.0.1:4173/assets/index-xM09OUPi.css",
       "type": "stylesheet"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/cook-dark-BuETYeXw.png",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/pantry-dark-NTw5n3bd.png",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/recipe-dark-ByQXrQjT.png",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/nasi-goreng-kampung-DdoFogdW.webp",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/mee-goreng-mamak-BBstzcCO.webp",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/bihun-goreng-BBBBPgzQ.webp",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/lauklab-logo-256-P9gPjly1.png",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/lauklab-logo-256-P9gPjly1.png",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/cook-light-CCAgtSvW.png",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/pantry-light-Ce2f3hDR.png",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/recipe-light-DQ1n3shI.png",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/lauklab-logo-256-P9gPjly1.png",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/lauklab-logo-256-P9gPjly1.png",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/lauklab-logo-256-P9gPjly1.png",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/lauklab-logo-256-P9gPjly1.png",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/lauklab-logo-256-P9gPjly1.png",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/lauklab-logo-256-P9gPjly1.png",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/lauklab-logo-256-P9gPjly1.png",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/lauklab-logo-256-P9gPjly1.png",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/lauklab-logo-256-P9gPjly1.png",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/lauklab-logo-256-P9gPjly1.png",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/lauklab-logo-256-P9gPjly1.png",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/lauklab-logo-256-P9gPjly1.png",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/lauklab-logo-256-P9gPjly1.png",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/lauklab-logo-256-P9gPjly1.png",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/lauklab-logo-256-P9gPjly1.png",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/lauklab-logo-256-P9gPjly1.png",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/lauklab-logo-256-P9gPjly1.png",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/lauklab-logo-256-P9gPjly1.png",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/lauklab-logo-256-P9gPjly1.png",
+      "type": "other"
     },
     {
       "url": "http://127.0.0.1:4173/",
       "type": "document"
     },
     {
-      "url": "http://127.0.0.1:4173/assets/index-I7bOdZbs.js",
+      "url": "http://127.0.0.1:4173/assets/index-Cv6XEsAL.js",
       "type": "script"
     },
     {
-      "url": "http://127.0.0.1:4173/assets/index-BIBBuXZB.css",
+      "url": "http://127.0.0.1:4173/assets/index-xM09OUPi.css",
       "type": "stylesheet"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/cook-dark-BuETYeXw.png",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/pantry-dark-NTw5n3bd.png",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/recipe-dark-ByQXrQjT.png",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/nasi-goreng-kampung-DdoFogdW.webp",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/mee-goreng-mamak-BBstzcCO.webp",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/bihun-goreng-BBBBPgzQ.webp",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/lauklab-logo-256-P9gPjly1.png",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/lauklab-logo-256-P9gPjly1.png",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/lauklab-logo-256-P9gPjly1.png",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/cook-light-CCAgtSvW.png",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/pantry-light-Ce2f3hDR.png",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/recipe-light-DQ1n3shI.png",
+      "type": "image"
     },
     {
       "url": "http://127.0.0.1:4173/",
       "type": "document"
     },
     {
-      "url": "http://127.0.0.1:4173/assets/index-I7bOdZbs.js",
+      "url": "http://127.0.0.1:4173/assets/index-Cv6XEsAL.js",
       "type": "script"
     },
     {
-      "url": "http://127.0.0.1:4173/assets/index-BIBBuXZB.css",
+      "url": "http://127.0.0.1:4173/assets/index-xM09OUPi.css",
       "type": "stylesheet"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/lauklab-logo-256-P9gPjly1.png",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/cook-light-CCAgtSvW.png",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/pantry-light-Ce2f3hDR.png",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/recipe-light-DQ1n3shI.png",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/lauklab-logo-256-P9gPjly1.png",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/cook-dark-BuETYeXw.png",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/pantry-dark-NTw5n3bd.png",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/recipe-dark-ByQXrQjT.png",
+      "type": "image"
     }
   ],
   "errors": [],

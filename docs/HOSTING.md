@@ -2,7 +2,7 @@
 
 Approved on 2026-10-09: use the separate `lauklab` Hosting site and serve the landing page through `public/index.html`. The user subsequently approved GitHub Actions CI with automatic site updates on pushes to `main`. DNS edits remain outside that approval.
 
-Read-only Firebase checks confirmed project `chiai-my`, portfolio site `chiai-my` with active domain `chiai.my`, and secondary site `lauklab`. At inspection the secondary site had no releases or custom domains. The portfolio's latest release was 2026-08-19T00:22:12.946Z.
+Read-only Firebase checks confirmed project `chiai-my`, portfolio site `chiai-my` with its existing custom domain, and secondary site `lauklab`. At inspection the secondary site had no releases or custom domains. The portfolio's latest release was 2026-08-19T00:22:12.946Z.
 
 ## Local build and test
 
@@ -39,7 +39,7 @@ Do not use unscoped deployment commands. Direct Firebase CLI publishing still re
 
 ## Custom domain
 
-After separate domain-connection approval, open Firebase Console, project `chiai-my`, Hosting site `lauklab`, and choose Add custom domain for `lauklab.chiai.my`. Use only the exact DNS records Firebase supplies. Make approved additions in Cloudflare, preserving portfolio and email records and existing nameservers. No DNS values or verification tokens have been guessed. Keep the canonical URL unset until the approved domain is serving correctly.
+After separate domain-connection approval, open Firebase Console, project `chiai-my`, Hosting site `lauklab`, and choose Add custom domain for the separately approved destination. Use only the exact DNS records Firebase supplies. Make approved additions in Cloudflare, preserving portfolio and email records and existing nameservers. No DNS values or verification tokens have been guessed. Keep the canonical URL unset until the approved domain is serving correctly.
 
 The sites have separate content, configuration, domains, and release history. Hosting quotas remain shared at the Firebase project level; this change adds no billing plan, backend, or paid infrastructure.
 

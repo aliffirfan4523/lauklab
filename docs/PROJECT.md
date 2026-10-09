@@ -1,18 +1,18 @@
 # Project context
 
-**lauklab by Chiai** is an independent project at the pre-MVP stage. It explores a practical question: what can someone cook with the ingredients already available, within their time and equipment limits?
+**lauklab by Chiai** is an independent cooking project currently in closed beta testing, as confirmed by the owner. It explores a practical question: what can someone cook with the ingredients already available, within their time and equipment limits?
 
-The current deliverable is a public landing page with a fixed example. It is a way to explain the proposition and gather interest by email. It is not evidence that a working cooking assistant, professionally tested recipe catalogue, or production service exists.
+The current website explains the pantry-to-meal proposition, presents the app screens and includes attributed Malaysian kitchen recipes. Public registration is not open. Beta status does not establish recipe-testing outcomes, a production account service or a professionally reviewed catalogue.
 
-Public contact: [aliff@chiai.my](mailto:aliff@chiai.my?subject=lauklab%20by%20Chiai%20-%20early%20access%20interest). Chiai's separate portfolio: [https://chiai.my](https://chiai.my).
+The latest owner instruction keeps **by Chiai** branding and removes external website and email references from the current design.
 
-## Current demonstration
+## Current website
 
-The sample has 2 servings, a 20-minute limit, and a frying pan. It starts with 4 eggs, 200 g cabbage, 100 g onion, 400 g cooked rice, 2 tbsp oil, and 0.5 tsp salt.
+The website displays Cook, Pantry and Recipe screen captures in both appearances, bundled with the site. Screen buttons change the selected image; the shared theme control follows the system or an explicit preference.
 
-It illustrates three alternatives: an 18-minute egg and cabbage fried rice, a 20-minute cabbage omelette with rice, and 20-minute tomato, egg, and cabbage bowls. The first two need no extras; the tomato option adds 2 tomatoes, measured by count.
+The first recipes are nasi goreng kampung, mee goreng mamak and bihun goreng, with two servings and preparation-inclusive windows of 35/40/35 minutes. They are LaukLab kitchen versions inspired by linked Che Nom recipes. All pantry quantities and extra ingredients are visible. The starter pantry contains 4 eggs, 400 g cooked rice, 60 g shallots, 20 g garlic, 6 tbsp oil and 1 tsp salt. See RECIPE-SOURCES.md for provenance and adaptation decisions.
 
-The page labels this explicitly: **Illustrative preview — sample data, not live AI.** Recipes are not professionally tested. The current site makes no live AI calls and does not collect form submissions or create accounts. System/Light/Dark appearance is available; only an optional appearance preference is stored locally.
+The website makes no live AI calls, collects no form submissions and creates no accounts. System/Light/Dark appearance is available; only an optional appearance preference is stored locally.
 
 ## Proposed MVP direction
 
@@ -30,4 +30,4 @@ Pilot the smallest complete flow with a limited group, check whether the suggest
 
 Describe the project at its actual stage. Do not imply a programme partnership, institutional endorsement, or registered-company status. Do not claim the illustrative recipes are professionally tested or that the preview is a live service.
 
-The existing Firebase project `chiai-my` and separate Hosting site/target `lauklab` are configured locally. The intended custom domain remains `lauklab.chiai.my`, pending an approved domain connection. See [hosting instructions](HOSTING.md). This design refinement does not deploy a release, change the existing portfolio, or edit DNS.
+The existing Firebase project `chiai-my` and separate Hosting site/target `lauklab` are configured locally. Any custom-domain connection still requires separate approval. See [hosting instructions](HOSTING.md). This design refinement does not deploy a release, change the existing portfolio, or edit DNS.

@@ -7,7 +7,7 @@
   -webkit-font-smoothing: antialiased;
   color-scheme: light;
   --cream: #f7f3e8;
-  --paper: #fffdf7;
+  --paper: #f2eddf;
   --green: #214f3d;
   --orange: #a74b2a;
   --ink: #23372e;
@@ -65,7 +65,7 @@ a { color: inherit; text-underline-offset: .25em; }
 button, summary, a { -webkit-tap-highlight-color: transparent; }
 ::selection { color: var(--on-primary); background: var(--primary); }
 :focus-visible { outline: 3px solid var(--orange); outline-offset: 5px; }
-.idea-section :focus-visible, .contact-section :focus-visible { outline-color: var(--on-panel); }
+.idea-section :focus-visible, .contact-section :focus-visible, .beta-section :focus-visible { outline-color: var(--on-panel); }
 section[id], #roadmap { scroll-margin-top: 2rem; }
 h1, h2, h3, h4, p { margin: 0; }
 h1, h2, .wordmark, .pantry-note h2, .meal-card h3, .contact-email { font-family: Georgia, "Times New Roman", serif; font-weight: 400; }
@@ -77,12 +77,18 @@ h2 { font-size: clamp(2rem, 3.2vw, 3.1rem); line-height: 1.12; letter-spacing: -
 .skip-link { position: absolute; z-index: 10; left: 1rem; top: -8rem; padding: .9rem 1.25rem; background: var(--paper); border: 1px solid var(--green); }
 .skip-link:focus { top: 1rem; }
 .site-header { padding-block: 1.5rem; display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; gap: 1rem; position: relative; }
-.wordmark { text-decoration: none; font-size: 2.25rem; letter-spacing: -.06em; color: var(--green); line-height: 1; padding-block: .35rem; }
+.wordmark { display: inline-flex; align-items: center; gap: .65rem; width: fit-content; text-decoration: none; font-size: 2.25rem; letter-spacing: -.06em; color: var(--green); line-height: 1; padding-block: .35rem; }
+.wordmark img { display: block; width: 52px; height: 52px; flex-shrink: 0; background: #f7f3e8; border-radius: 10px; }
 .wordmark span { display: block; font-family: "Segoe UI", Arial, sans-serif; font-size: .875rem; font-weight: 500; letter-spacing: .015em; margin-top: .5rem; }
-.theme-control { grid-column: 1 / -1; display: flex; flex-wrap: wrap; align-items: center; justify-content: flex-end; gap: .75rem; font-size: .875rem; }
-.theme-control select { min-width: 8rem; max-width: 100%; min-height: 48px; font: inherit; font-size: 1rem; color: var(--ink); background: var(--paper); border: 1px solid var(--border); border-radius: 6px; padding: .65rem .6rem; }
+.theme-control { grid-column: 1 / -1; justify-self: end; display: flex; flex-wrap: wrap; gap: .25rem; padding: .25rem; border: 1px solid var(--border); border-radius: 12px; background: var(--paper); }
+.theme-control button, .screen-controls button { min-width: 48px; min-height: 48px; font: inherit; font-size: .875rem; font-weight: 600; border: 0; border-radius: 8px; color: var(--muted); background: transparent; cursor: pointer; }
+.theme-control button { display: inline-flex; align-items: center; justify-content: center; flex-wrap: wrap; gap: .4rem; padding: .65rem .75rem; }
+.theme-control svg { width: 18px; height: 18px; flex-shrink: 0; }
+.theme-control button[aria-pressed="true"], .screen-controls button[aria-pressed="true"] { color: var(--on-primary); background: var(--primary); }
+.theme-control button:hover:not([aria-pressed="true"]), .screen-controls button:hover:not([aria-pressed="true"]) { color: var(--ink); background: var(--wash); }
+.theme-control button:focus-visible { outline-offset: 1px; }
 .desktop-nav { display: none; gap: 1.7rem; }
-.desktop-nav a, .site-footer a { min-height: 48px; display: inline-flex; align-items: center; font-size: 1rem; }
+.desktop-nav a, .site-footer a { min-width: 48px; min-height: 48px; display: inline-flex; align-items: center; font-size: 1rem; }
 .desktop-nav a { text-decoration: none; }
 .desktop-nav a:hover { text-decoration: underline; }
 .mobile-nav { align-self: flex-start; }
@@ -105,6 +111,14 @@ h2 { font-size: clamp(2rem, 3.2vw, 3.1rem); line-height: 1.12; letter-spacing: -
 .pantry-list li { padding-block: .5rem; border-bottom: 1px solid var(--divider); font-size: 1rem; }
 .scenario { display: flex; flex-wrap: wrap; gap: .4rem 1rem; font-size: .875rem; font-weight: 600; }
 .pantry-note .pantry-footnote { font-size: .875rem; margin-top: 1rem; }
+.app-preview-section { display: grid; gap: 2rem; padding-block: 1rem 4.5rem; align-items: center; }
+.app-preview-copy h2 { color: var(--green); max-width: 15ch; }
+.app-preview-copy > p { margin-top: 1.25rem; max-width: 40ch; }
+.screen-controls { display: inline-flex; flex-wrap: wrap; gap: .25rem; padding: .25rem; margin-top: 1.75rem; border: 1px solid var(--border); background: var(--paper); border-radius: 12px; }
+.screen-controls button { padding: .7rem 1.1rem; }
+.app-preview-copy .app-screen-caption { color: var(--muted); font-size: 1rem; max-width: 36ch; }
+.app-phone { width: min(100%, 390px); margin: 0; justify-self: center; padding: 6px; border-radius: 32px; background: var(--ink); }
+.app-phone img { display: block; width: 100%; height: auto; border-radius: 26px; }
 .idea-section { background: var(--panel); color: var(--on-panel); padding-block: 3.5rem; }
 .idea-grid { display: grid; gap: 3rem; }
 .idea-grid h2 { max-width: 16ch; margin-bottom: 1.5rem; }
@@ -126,8 +140,11 @@ h2 { font-size: clamp(2rem, 3.2vw, 3.1rem); line-height: 1.12; letter-spacing: -
 .preview-disclaimer { font-size: .875rem; margin-top: 1.8rem; color: var(--orange); font-weight: 600; }
 .meal-grid { display: grid; gap: 1.25rem; margin-top: 1.5rem; align-items: start; }
 .meal-card { border: 1px solid var(--border); border-radius: 10px; padding: 1.4rem; background: var(--cream); min-width: 0; }
+.meal-photo { display: block; width: 100%; height: auto; aspect-ratio: 8 / 5; object-fit: cover; border-radius: 6px; margin-bottom: 1.25rem; }
 .meal-meta { display: flex; justify-content: space-between; flex-wrap: wrap; gap: .5rem; font-size: .875rem; color: var(--muted); border-bottom: 1px solid var(--divider); padding-bottom: .9rem; }
 .meal-card h3 { color: var(--green); font-size: 1.85rem; letter-spacing: -.025em; line-height: 1.15; margin-block: 1.3rem 1rem; }
+.meal-version { color: var(--muted); font-size: .875rem; margin-bottom: 1rem; }
+.recipe-source { display: inline-flex; align-items: center; min-height: 48px; margin-top: .5rem; font-size: .875rem; }
 .availability { font-size: .875rem; font-weight: 600; color: var(--green); }
 .availability.needs-extra { color: var(--orange); }
 .meal-card h4 { font-size: 1rem; font-weight: 600; margin-top: 1.4rem; }
@@ -163,6 +180,20 @@ h2 { font-size: clamp(2rem, 3.2vw, 3.1rem); line-height: 1.12; letter-spacing: -
 .about-grid h2 { color: var(--green); max-width: 18ch; }
 .about-grid > div > p { font-size: 1rem; max-width: 55ch; }
 .about-grid .text-link { margin-top: 1rem; }
+.about-grid .about-introduction { margin-top: 1.4rem; max-width: 30ch; font-family: Georgia, "Times New Roman", serif; font-size: clamp(1.3rem, 2vw, 1.65rem); line-height: 1.45; color: var(--green); }
+.approach-section { padding-block: 3.5rem 4.5rem; }
+.approach-intro { display: grid; gap: 1.4rem; margin-bottom: 2.5rem; }
+.approach-intro h2 { max-width: 15ch; color: var(--green); }
+.approach-intro p { max-width: 43ch; color: var(--muted); }
+.principles-list { list-style: none; padding: 0; margin: 0; }
+.principles-list li { display: grid; gap: .65rem; border-top: 1px solid var(--border); padding-block: 1.4rem; }
+.principles-list h3 { font-size: 1.1rem; font-weight: 600; color: var(--green); }
+.principles-list p { max-width: 60ch; color: var(--muted); }
+.beta-section { padding-block: 3rem; background: var(--panel); color: var(--on-panel); }
+.beta-grid { display: grid; gap: 1.5rem; }
+.beta-grid h2 { max-width: 18ch; }
+.beta-grid p { max-width: 53ch; }
+.beta-grid .text-link { margin-top: 1rem; }
 .faq-section { display: grid; gap: 2rem; padding-block: 4rem; }
 .faq-section h2 { color: var(--green); max-width: 13ch; }
 .faq-list details { border-top: 1px solid var(--border); }
@@ -177,6 +208,7 @@ h2 { font-size: clamp(2rem, 3.2vw, 3.1rem); line-height: 1.12; letter-spacing: -
 .contact-inner .contact-note { font-size: .875rem; margin-top: .8rem; max-width: 48ch; }
 .contact-email { display: inline-flex; align-items: center; min-height: 48px; font-size: clamp(1.4rem, 3vw, 2rem); margin-top: 1.7rem; text-decoration-thickness: 1px; }
 .site-footer { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: .5rem 1.5rem; padding-block: 1.6rem; font-size: .875rem; }
+.site-footer nav { display: flex; flex-wrap: wrap; gap: .25rem 1.5rem; }
 @media (min-width: 42rem) {
   .shell { width: min(100% - 4rem, 73rem); }
   .hero { padding-block: 3.5rem 5rem; }
@@ -185,12 +217,17 @@ h2 { font-size: clamp(2rem, 3.2vw, 3.1rem); line-height: 1.12; letter-spacing: -
   .meal-grid { grid-template-columns: repeat(auto-fit, minmax(min(100%, 20rem), 1fr)); }
   .preview-heading { grid-template-columns: 1.1fr 1fr; gap: 2rem; }
   .about-grid { grid-template-columns: 1fr 1fr; gap: 3rem; }
+  .approach-intro { grid-template-columns: 1fr 1fr; gap: 3rem; align-items: end; }
+  .principles-list li { grid-template-columns: 1fr 1fr; gap: 3rem; }
+  .beta-grid { grid-template-columns: 1fr 1fr; gap: 3rem; }
+  .app-preview-section { grid-template-columns: 1fr 1fr; gap: 3rem; padding-block: 1rem 5rem; }
 }
 @media (min-width: 68rem) {
   .desktop-nav { display: flex; }
   .mobile-nav { display: none; }
   .site-header { padding-block: 2rem; display: flex; flex-wrap: wrap; justify-content: space-between; }
   .theme-control { flex-wrap: nowrap; }
+  .app-preview-section { gap: 6rem; }
   .hero { grid-template-columns: 1.4fr 1fr; gap: 5rem; align-items: center; padding-block: 3.5rem 6rem; }
   .pantry-note { padding: 2rem; }
   .idea-section { padding-block: 5rem; }
@@ -203,6 +240,9 @@ h2 { font-size: clamp(2rem, 3.2vw, 3.1rem); line-height: 1.12; letter-spacing: -
   .future-section { grid-template-columns: 1fr 1fr; gap: 6rem; padding-block: 5.5rem; }
   .about-section { padding-block: 4rem; }
   .about-grid { gap: 6rem; }
+  .approach-section { padding-block: 4.5rem 5rem; }
+  .approach-intro, .principles-list li, .beta-grid { gap: 6rem; }
+  .beta-section { padding-block: 4rem; }
   .faq-section { grid-template-columns: .8fr 1.3fr; gap: 5rem; padding-block: 5rem; }
   .contact-section { padding-block: 5rem; }
 }

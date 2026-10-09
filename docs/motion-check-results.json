@@ -1,0 +1,280 @@
+{
+  "result": "PASS",
+  "chapters": [
+    {
+      "label": "Cook",
+      "top": 97.45365905761719,
+      "bottom": 845.9994354248047,
+      "left": 860.0624389648438,
+      "right": 1209.559814453125,
+      "viewportWidth": 1440,
+      "viewportHeight": 1000,
+      "position": "sticky"
+    },
+    {
+      "label": "Pantry",
+      "top": 99.87017822265625,
+      "bottom": 843.5828857421875,
+      "left": 861.061767578125,
+      "right": 1211.0604248046875,
+      "viewportWidth": 1440,
+      "viewportHeight": 1000,
+      "position": "sticky"
+    },
+    {
+      "label": "Recipe",
+      "top": 97.256591796875,
+      "bottom": 846.196533203125,
+      "left": 862.5714111328125,
+      "right": 1211.988525390625,
+      "viewportWidth": 1440,
+      "viewportHeight": 1000,
+      "position": "sticky"
+    },
+    {
+      "label": "Pantry",
+      "top": 99.87017822265625,
+      "bottom": 843.5828857421875,
+      "left": 861.061767578125,
+      "right": 1211.0604248046875,
+      "viewportWidth": 1440,
+      "viewportHeight": 1000,
+      "position": "sticky"
+    },
+    {
+      "label": "Cook",
+      "top": 97.45365905761719,
+      "bottom": 845.9994354248047,
+      "left": 860.0624389648438,
+      "right": 1209.559814453125,
+      "viewportWidth": 1440,
+      "viewportHeight": 1000,
+      "position": "sticky"
+    },
+    {
+      "label": "Pantry",
+      "top": 99.87017822265625,
+      "bottom": 843.5828857421875,
+      "left": 861.061767578125,
+      "right": 1211.0604248046875,
+      "viewportWidth": 1440,
+      "viewportHeight": 1000,
+      "position": "sticky"
+    },
+    {
+      "label": "Pantry",
+      "top": 99.87017822265625,
+      "bottom": 843.5828857421875,
+      "left": 861.061767578125,
+      "right": 1211.0604248046875,
+      "viewportWidth": 1440,
+      "viewportHeight": 1000,
+      "position": "sticky"
+    }
+  ],
+  "checks": [
+    {
+      "name": "Forward chapters select Cook, Pantry, Recipe with phone contained",
+      "sectionHeight": 2104.75
+    },
+    {
+      "name": "Reverse scrolling restores Pantry then Cook"
+    },
+    {
+      "name": "Manual Recipe override survives 10px jitter, resumes Cook after deliberate 36px scroll"
+    },
+    {
+      "name": "Dark updates images while preserving Pantry selection; all bundled page images decode",
+      "imageCount": 7
+    },
+    {
+      "name": "Light updates images while preserving Pantry selection; all bundled page images decode",
+      "imageCount": 7
+    },
+    {
+      "name": "Live reduced motion removes tall chapters, phone transform and image transitions; manual selection works",
+      "height": 926.015625,
+      "stories": "none",
+      "transform": "none",
+      "transition": "0s"
+    },
+    {
+      "name": "Live restoration of motion resumes chapter selection"
+    },
+    {
+      "name": "Mobile 390px fallback and manual controls",
+      "viewport": 390,
+      "content": 390,
+      "stories": "none",
+      "transform": "none"
+    },
+    {
+      "name": "Mobile 320px fallback and manual controls",
+      "viewport": 320,
+      "content": 320,
+      "stories": "none",
+      "transform": "none"
+    },
+    {
+      "name": "Tablet 768px fallback and manual controls",
+      "viewport": 768,
+      "content": 768,
+      "stories": "none",
+      "transform": "none"
+    },
+    {
+      "name": "Short desktop 580px fallback and manual controls",
+      "viewport": 1440,
+      "content": 1440,
+      "stories": "none",
+      "transform": "none"
+    }
+  ],
+  "images": [
+    {
+      "theme": "Dark",
+      "assets": [
+        {
+          "source": "/assets/lauklab-logo-256-P9gPjly1.png",
+          "width": 256,
+          "height": 256
+        },
+        {
+          "source": "/assets/cook-dark-BuETYeXw.png",
+          "width": 390,
+          "height": 844
+        },
+        {
+          "source": "/assets/pantry-dark-NTw5n3bd.png",
+          "width": 390,
+          "height": 844
+        },
+        {
+          "source": "/assets/recipe-dark-ByQXrQjT.png",
+          "width": 390,
+          "height": 844
+        },
+        {
+          "source": "/assets/nasi-goreng-kampung-DdoFogdW.webp",
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "source": "/assets/mee-goreng-mamak-BBstzcCO.webp",
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "source": "/assets/bihun-goreng-BBBBPgzQ.webp",
+          "width": 1254,
+          "height": 1254
+        }
+      ]
+    },
+    {
+      "theme": "Light",
+      "assets": [
+        {
+          "source": "/assets/lauklab-logo-256-P9gPjly1.png",
+          "width": 256,
+          "height": 256
+        },
+        {
+          "source": "/assets/cook-light-CCAgtSvW.png",
+          "width": 390,
+          "height": 844
+        },
+        {
+          "source": "/assets/pantry-light-Ce2f3hDR.png",
+          "width": 390,
+          "height": 844
+        },
+        {
+          "source": "/assets/recipe-light-DQ1n3shI.png",
+          "width": 390,
+          "height": 844
+        },
+        {
+          "source": "/assets/nasi-goreng-kampung-DdoFogdW.webp",
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "source": "/assets/mee-goreng-mamak-BBstzcCO.webp",
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "source": "/assets/bihun-goreng-BBBBPgzQ.webp",
+          "width": 1254,
+          "height": 1254
+        }
+      ]
+    }
+  ],
+  "screenshots": [
+    "docs/screenshots/motion-desktop-cook.png",
+    "docs/screenshots/motion-desktop-pantry.png",
+    "docs/screenshots/motion-desktop-recipe.png",
+    "docs/screenshots/motion-mobile.png"
+  ],
+  "errors": [],
+  "requests": [
+    {
+      "url": "http://127.0.0.1:4173/",
+      "type": "document"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/index-B9znKDO0.js",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/index-DgtWt6Oz.css",
+      "type": "stylesheet"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/lauklab-logo-256-P9gPjly1.png",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/cook-light-CCAgtSvW.png",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/pantry-light-Ce2f3hDR.png",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/recipe-light-DQ1n3shI.png",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/lauklab-logo-256-P9gPjly1.png",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/nasi-goreng-kampung-DdoFogdW.webp",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/mee-goreng-mamak-BBstzcCO.webp",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/bihun-goreng-BBBBPgzQ.webp",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/cook-dark-BuETYeXw.png",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/pantry-dark-NTw5n3bd.png",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/recipe-dark-ByQXrQjT.png",
+      "type": "image"
+    }
+  ]
+}

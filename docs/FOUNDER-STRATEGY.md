@@ -49,7 +49,7 @@ Ask servings, time, and equipment together with visible, editable defaults. Retu
 
 Offer optional backup after a useful action, such as saving or finishing a meal. Request permissions when their benefit is visible. Avoid an account wall, a long preference survey, or a notification prompt before a person has seen a useful result.
 
-The public page should show the actual decision: ingredients, constraints, alternatives, quantities, and any extra purchases. Preserve the headline "Good meals start with what you already have." While the service is in development, use truthful actions such as "See the sample meals" and "Ask about early access." Show aliff@chiai.my and explain that the contact action opens an email application. Do not simulate a successful waitlist submission or advertise installation and live matching before they exist.
+The public page should show the actual decision: ingredients, constraints, alternatives, quantities, and any extra purchases. Preserve the headline "Good meals start with what you already have." While the service is in development, use the truthful action "See the sample meals." The current owner instruction removes external website and email actions while retaining by Chiai branding. Add an early-access action only when a new contact destination is supplied. Do not simulate a successful waitlist submission or advertise installation and live matching before they exist.
 
 ## Low-cost acquisition and retention experiments
 

@@ -1,47 +1,36 @@
 # Design direction
 
-The approved direction is a warm, readable cookbook page for **lauklab by Chiai**. It should help visitors understand the idea, inspect a concrete sample, and express interest by email.
+The approved direction is a warm, readable cookbook website for **lauklab by Chiai**. The owner confirms **currently in closed beta testing** and asks for the app screens and familiar Malaysian recipes to be visible on the site. Keep ENERGY 2 / RHYTHM 3. The app retains MOTION 1; the owner's request for Apple-inspired website animation raises the app-preview section to MOTION 2.
 
 | Decision | Reason |
 | --- | --- |
-| Cream `#F7F3E8`, green `#214F3D`, orange `#A74B2A` | Warm paper, grounded text, and a restrained cooking accent. |
-| Georgia headings and a system sans-serif body | Familiar editorial character with clear practical instructions and no font download. |
-| System, light, and dark appearance | Respects the visitor's environment and lets them choose comfortable contrast. |
-| ENERGY 2 / RHYTHM 3 / MOTION 1 | Restrained emphasis, varied section composition, and minimal movement. |
-| Varied section layouts | Gives the introduction, explanation, sample, and FAQ their own reading pace. |
-| Typography and CSS decoration | Keeps the page complete without photography or generated icons. |
-| One actual sample pantry with three alternatives | Makes the proposition understandable through quantities, timings, and missing ingredients. |
-| Consistent meal-card fields | Lets visitors compare time, quantities, and missing ingredients before opening the steps. |
-| Orange for sample disclosure, missing ingredients, and light-surface focus | Marks the information that needs attention without coloring every section. |
-| Native `details` for recipe steps, FAQ, and mobile Menu | Provides simple, accessible disclosure with platform behavior. |
-| Email CTA | Lets visitors express interest without adding a collection system. |
+| Cream #F7F3E8, green #214F3D, restrained orange #A74B2A | Paper-like reading surface, clear actions and ingredient review cues |
+| Georgia headings and system sans body | Cookbook character without external font requests |
+| Asymmetric hero, pantry summary, phone preview and varied sections | Give the idea, app and meal comparison their own reading pace |
+| Cooking-pot/flask logo beside lowercase wordmark; by Chiai retained | Connect everyday cooking to experimentation, with a cream backing for dark-theme legibility |
+| Native disclosures and labelled buttons | Visible, predictable states with keyboard support |
+| One scroll-driven phone story on the website; quick feedback in the app | Explain Cook, Pantry and Recipe continuity without repeated page reveals or motion loops |
 
-## Content and interaction
+## Current content and structure
 
-Use clear section hierarchy, generous spacing, and comfortable line lengths. The primary action leads to the sample meals; the secondary action opens early-access interest by email. Keep Chiai's portfolio link visible without suggesting the portfolio hosts this site.
+Keep the headline **Good meals start with what you already have.** The main action, **Explore the app**, leads to the on-page screen preview. **Browse Malaysian meals** leads to the recipes. Navigation reaches The idea, The app, Meals, Roadmap and About us. External portfolio/email references remain removed.
 
-The sample context is 2 servings, 20 minutes, and a frying pan. Available ingredients are 4 eggs, 200 g cabbage, 100 g onion, 400 g cooked rice, 2 tbsp oil, and 0.5 tsp salt.
+Company content expands the existing About section into About us, Our approach, and Closed beta, with a Company footer navigation including FAQ. The About composition pairs a cookbook-style opening with the independent Chiai project identity. Three editorial rows explain pantry confirmation, grounded recipes, and user review. A deep-green beta panel explains the current focus and that public registration is not open. No team, legal company status, statistics, contact channels or launch date is invented.
 
-| Alternative | Time | Extra ingredients |
-| --- | --- | --- |
-| Egg and cabbage fried rice | 18 minutes | None |
-| Cabbage omelette with rice | 20 minutes | None |
-| Tomato, egg, and cabbage bowls | 20 minutes | 2 tomatoes, measured by count |
+The app section displays the current Cook, Pantry and Recipe layouts inside a phone frame. Buttons select the screen; the image follows System/Light/Dark. Six captures are local build assets, so the production website has no dependency on a separate gallery server. On wide, sufficiently tall screens with motion enabled, the phone stays in view while scrolling through three task-specific chapters. Images crossfade, and a small change of perspective gives the phone depth. Manual buttons override the current chapter until deliberate scrolling resumes. Mobile, short viewports and reduced motion use the compact button-controlled presentation.
 
-Display this label exactly: **Illustrative preview — sample data, not live AI.** Explain that the recipes are not professionally tested. The sample must not imply that visitors can submit ingredients or receive live generated recipes.
+The owner-approved logo is supplied as a transparent raster master and a 256px web asset. Three generated food images show the Malaysian meal types; they are visual appearance cues rather than photographs of professionally tested recipes. Exact generation prompts are stored in docs/brand-logo-prompt.txt and docs/food-image-prompts.txt. WebP encoding keeps each food asset below 320KB. No external fonts or additional libraries are introduced.
 
-Use descriptive link text, visible keyboard focus, readable color contrast, and layouts that fit small screens without horizontal scrolling. Honor reduced-motion preferences. Preserve the native disclosure interactions on touch and keyboard.
+The complete mobile prototype uses the logo, shared food crops, quantity blocks, grouped settings and forms, a selected-day planning surface, and shopping progress computed from its existing list state. Cook keeps user-marked priority ingredients above constraints. Recipe details use a shallow food image while retaining ingredient gaps, quantities and attribution. Saved and planned meals reuse compact thumbnails. Pantry and List remain focused on amounts and review, with no decorative photography panels. All 24 routes retain their existing behavior and review steps.
 
-## Deliberate limits
+The starter pantry contains four eggs, 400 g cooked rice, 60 g shallots, 20 g garlic, six tablespoons oil and one teaspoon salt. The two-serving recipe selection is nasi goreng kampung, mee goreng mamak and bihun goreng. Their preparation-inclusive windows are 35, 40 and 35 minutes within the 45-minute cooking choice. Mee goreng explicitly uses already-boiled potato. All extra ingredients and sources are visible; recipes are alternative choices rather than meals that can reuse the same pantry stock without deductions.
 
-No backend, AI API integration, account flow, form waitlist, or tracking. Local storage keeps only an optional appearance preference; when storage is unavailable, appearance changes still work during the visit. No stock photography or generated icon set. A canonical URL will be added only after the public address is confirmed.
+Recipes are LaukLab kitchen versions inspired by Che Nom, with original English instructions and defined amounts. Source URLs and adaptation details are recorded in docs/RECIPE-SOURCES.md. The owner's new status and meal selection supersede the original generic egg/cabbage example and its public illustrative label. Do not invent tester counts, outcomes, partnerships, certification, public registration or production account/sync services.
 
-## Founder-focused refinement, 2026-10-09
+## Appearance and accessibility
 
-The user's request for simple modern colors, light/dark appearance, and usability for younger and older people supersedes the original fixed-light restriction. System is the default; the labelled native Theme selector allows Light and Dark overrides. An early head script restores a validated preference before the page paints. CSS observes operating-system appearance changes while System is selected.
+System is the default. The labelled System/Light/Dark button group uses consistent line icons, visible pressed states and >=48px targets. The saved preference is restored before paint, follows OS appearance while System is selected and remains usable when storage is blocked. Both site and app images follow the choice. Light paper surfaces use warm #F2EDDF against the #F7F3E8 page, replacing the near-white recipe band while retaining quiet tonal separation.
 
-Light keeps the approved cream, green, and orange. Dark uses `#151E19` page, `#1C2921` surface, `#F2F2E9` text, `#B5C4B8` secondary text, `#A8D2B7` green accents, and `#F3B18F` orange accents. Deep-green narrative/contact panels retain cream text in either appearance. Primary action fill and text are separate tokens, so changing headings to pale green does not invert panel or button contrast.
+Dark uses #151E19 page, #1C2921 surface, #F2F2E9 text, #B5C4B8 secondary text, #A8D2B7 green accents and #F3B18F orange accents. Action foreground/fill tokens are separate. Deep-green narrative panels retain cream text. Body and recipe instructions use 1rem, metadata at least .875rem, and keyboard focus has a visible 3px outline. Reflow is checked at 320/390/768/1440px and 200% text.
 
-Body and recipe instructions use 1rem; genuine metadata uses at least .875rem. The root follows the browser's default font size. Controls use at least 48px height, including the native Theme selector, links, and recipe disclosures. Decorative section eyebrow labels have been removed, while project-development status and sample limits remain visible.
-
-The first-release proposition is deliberately small: confirmed pantry quantities, curated matches, reviewed English/Malay ingredient input, guided cooking, and saved recipes. Planning and shopping lists remain conditional follow-ups after a home-cook pilot. The three-meal sample remains fixed; it does not submit ingredients or provide live matching. Tomatoes are represented as two items rather than an assumed conversion to grams.
+No backend, account service, live AI, deployment, DNS change or deferred Figma edit is part of this website update.

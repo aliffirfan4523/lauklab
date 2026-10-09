@@ -1,0 +1,8 @@
+Use case: logo-brand.
+Asset type: reusable app logo symbol for LaukLab, a Malaysian cooking app centered on trying meals with pantry ingredients.
+Primary request: one polished, distinctive symbol that fuses cooking and experimentation into a single coherent shape.
+Subject: a friendly cooking pot whose body and short open neck also read as a laboratory flask. Use a broad rounded bowl, two short cooking-pot handles, a subtly tapered flask shoulder, and one small warm orange simmer bubble rising from the mouth. Both cooking and experimenting should be recognizable without clutter. The mark should feel like food experimentation in a home kitchen.
+Style: crisp flat vector-style artwork, bold clean geometry, balanced substantial strokes, carefully shaped negative space, warm and contemporary. Professional visual identity, not clip art.
+Composition: a single centered isolated logo mark, generous clear margin, square canvas. No enclosing app tile, no presentation board or mockup.
+Palette: deep green #214F3D for the main shape, restrained burnt orange #A74B2A for one small bubble or simmer detail. The app uses cream #F7F3E8, but the image background must be truly transparent. Keep the symbol primarily green with open transparent negative space.
+Constraints: readable as a silhouette at small app-icon sizes; few shapes, no fine detail. No text or lettering, no watermark. Do not add atom rings, chef hats, utensils, leaves, flames, scientific measurements, chemical symbols, or medical imagery. No gradients, shadows, three-dimensional effects, textures, or realistic photography. Deliver the actual logo artwork on a transparent background.
